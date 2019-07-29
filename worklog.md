@@ -3,7 +3,7 @@
 | time spent | feature |
 |-------------|-------------|
 | 4h | add project architecture |
-|  |  |
+| 20m | add Author and Search components, create and connect style files |
 |  |  |
 
 

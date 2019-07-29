@@ -2,7 +2,7 @@ import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
 
-import './styles/header.css'
+import './styles/Header.css'
 
 const Header = ({ siteTitle, lang, setLang }) => {
   const handleLangClick = e => {
