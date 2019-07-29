@@ -25,6 +25,8 @@ const Layout = ({ children }) => {
     }
   `)
 
+  const newChildren = children.map(child => React.cloneElement(child, { lang, setLang }));
+
   return (
     <>
       <Header siteTitle={data.site.siteMetadata.title} lang={lang} setLang={setLang} />
@@ -36,7 +38,7 @@ const Layout = ({ children }) => {
           paddingTop: 0,
         }}
       >
-        <main>{children}</main>
+        <main>{newChildren}</main>
         <footer>
           © {new Date().getFullYear()}, Built with
           {` `}

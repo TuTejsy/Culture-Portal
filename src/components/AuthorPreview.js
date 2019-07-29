@@ -4,7 +4,7 @@ import './styles/AuthorPreview.css';
 
 const AuthorPreview = ({ lang }) => (
   <div className="author-container">
-
+    {lang}
   </div>
 );
 

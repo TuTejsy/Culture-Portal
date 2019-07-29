@@ -4,7 +4,7 @@ import './styles/Author.css';
 
 const Author = ({ lang }) => (
   <div className="author-container">
-
+    {lang}
   </div>
 );
 
