@@ -1,0 +1,80 @@
+.page-header {
+  background: #0E142E;
+  margin-bottom: 1.45rem;
+}
+
+.page-header__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 1140px;
+  padding: 15px 20px;
+}
+
+.page-header__buttons a {
+  position: relative;
+  margin-right: 25px;
+  font-size: 25px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.page-header__buttons a:last-child {
+  margin: 0;
+}
+
+.page-header__buttons a::after {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  content: '';
+  height: 0;
+  width: 100%;
+  background: #fff;
+  transition: 0.1s;
+}
+
+.page-header__buttons a:hover::after {
+  height: 2px;
+  transition: 0.2s;
+}
+
+.page-header__language-select {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  list-style: none;
+  color: #fff;
+}
+
+.page-header__language-select .lang {
+  position: relative;
+  margin: 0;
+  margin-right: 10px;
+  font-size: 15px;
+  line-height: 15px;
+  cursor: pointer;
+}
+
+.page-header__language-select .lang::after {
+  position: absolute;
+  top: 0;
+  right: -5px;
+  content: '';
+  width: 1px;
+  height: 100%;
+  background: #fff;
+}
+
+.page-header__language-select .lang:last-child {
+  margin: 0;
+}
+
+.page-header__language-select .lang:last-child:after {
+  display: none;
+}
+
+.page-header__language-select .selected {
+  color: #B3A27A;
+}
