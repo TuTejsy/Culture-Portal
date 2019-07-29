@@ -15,6 +15,8 @@ const IndexPage = ({ lang }) => (
       <Image />
     </div>
     <Link to="/search/">Go to page 2</Link>
+    <br></br>
+    <Link to="/author">Some author</Link>
   </Layout>
 )
 
