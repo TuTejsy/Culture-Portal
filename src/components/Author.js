@@ -33,6 +33,7 @@ function VideoComponent({videoId}) {
         className="embed-responsive-item"
         src={url}
         allowFullScreen
+        title="title"
       >
       </iframe>
     </div>
@@ -101,7 +102,7 @@ class Author extends React.Component {
 
   render() {
     const authorNumber = 0
-    const currentAuthor = this.state.authors[0]
+    const currentAuthor = this.state.authors[authorNumber]
     return (
       <div className="container w-75 mt-5">
         <BasicInfo author={currentAuthor}></BasicInfo>
