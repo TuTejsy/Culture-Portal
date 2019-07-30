@@ -56,7 +56,7 @@
                 "text": "Тяжело болел и умер 25 июля 1984 года. Похоронен на Восточном кладбище в Минске.",
               },
             ],
-            "works": [
+            "worksList": [
               {
                 "title": "Дикая охота короля Стаха",
                 "date": "1958, издана в 1964",
@@ -90,41 +90,41 @@
           "birthPlace": "Orsha, Vitebsk oblast",
           "summary": "Belarusian romantic writer.",
           "info": {
-             "timeline": [
-                {
-                  "date": "November 26, 1930",
-                  "text": "Was born in Orsha.",
-                },
-                {
-                  "date": "1949 — 1954",
-                  "text": "Studied on the Philological Department of Kiev University. In summer of 1950 he wrote the first variant of a novel «King Stakh's Wild Hunt».",
-                },
-                {
-                  "date": "1951",
-                  "text": "a first poem was published.",
-                },
-                {
-                  "date": "1954 — 1958",
-                  "text": "Worked as a teacher of the russian language and literature.",
-                },
-                {
-                  "date": "1960, 1962",
-                  "text": "Completed advanced literature courses and then cinematography, both in Moscow.",
-                },
-                {
-                  "date": "к. 1970-х — нач. 1980-х",
-                  "text": "Was sick and died soon.",
-                },
-              ],
-            "works": [
-                {
-                  "title": "King Stakh's Wild Hunt",
-                  "date": "1958, published in 1964",
-                },
-                {
-                  "title": "The Dark Castle Olshansky",
-                  "date": "1979",
-                },
+            "timeline": [
+              {
+                "date": "November 26, 1930",
+                "text": "Was born in Orsha.",
+              },
+              {
+                "date": "1949 — 1954",
+                "text": "Studied on the Philological Department of Kiev University. In summer of 1950 he wrote the first variant of a novel «King Stakh's Wild Hunt».",
+              },
+              {
+                "date": "1951",
+                "text": "a first poem was published.",
+              },
+              {
+                "date": "1954 — 1958",
+                "text": "Worked as a teacher of the russian language and literature.",
+              },
+              {
+                "date": "1960, 1962",
+                "text": "Completed advanced literature courses and then cinematography, both in Moscow.",
+              },
+              {
+                "date": "1970 — 1980",
+                "text": "Was sick and died soon.",
+              },
+            ],
+          "worksList": [
+              {
+                "title": "King Stakh's Wild Hunt",
+                "date": "1958, published in 1964",
+              },
+              {
+                "title": "The Dark Castle Olshansky",
+                "date": "1979",
+              },
             ],
           },
         },
@@ -176,22 +176,22 @@
                 "text": "Атрымалі кватэру на вул. Веры Харужай, д. 48, кв. 26. Увосень, у час чытацкай канферэнцыі па рамане «Каласы пад сярпом тваім» ў Брэсце, Уладзімір пазнаёміўся з выкладчыцай Брэсцкага педагагічнага інстытута Валянцінай Нікіцінай (у дзявоцтве Ватковіч, 1934—1983 гг.), з якой 19 лютага 1971 года ён ажаніўся.",
               },
               {
-                "date": "к. 1970-х — нач. 1980-х",
+                "date": "к. 1970-х — пач. 1980-х",
                 "text": "Моцна хварэў і каля месяца праляжаў у рэанімацыі. Вясной пачаў адчуваць сябе лепш. Незадоўга да смерці Караткевіч наведаў блізкія і дарагія яму мясціны. Памер 25 ліпеня 1984 года. Пахаваны на Усходніх могілках у Мінску.",
               },
             ],
-            "works": [
+            "worksList": [
               {
                 "title": "Дзікае паляванне караля Стаха",
                 "date": "1958, выдадзена ў 1964",
               },
               {
                 "title": "Каласы пад сярпом тваім",
-                "date": "1962—1964, выдадзены ў 1965",
+                "date": "1962 — 1964, выдадзены ў 1965",
               },
               {
                 "title": "Хрыстос прызямліўся ў Гародні",
-                "date": "1965—1966",
+                "date": "1965 — 1966",
               },
               {
                 "title": "Зямля пад белымі крыльями",
@@ -262,7 +262,7 @@
                 "text": "Стала лауреатом Нобелевской премии по литературе с формулировкой «за её многоголосное творчество — памятник страданию и мужеству в наше время». Светлана Алексиевич — первый нобелевский лауреат в истории независимой Беларуси; она стала первым с 1987 года русскоязычным писателем, удостоенным Нобелевской премии по литературе. Впервые за полвека премия была присуждена писателю, преимущественно работающему в жанре документальной литературы; при этом впервые в истории Нобелевская премия по литературе присуждена профессиональному журналисту.",
               },
             ],
-            "works": [
+            "worksList": [
               {
                 "title": "У войны не женское лицо",
                 "date": "опубл. в 1985",
@@ -298,7 +298,7 @@
           "info": {
              "timeline": [
                 {
-                  "date": "31 мая 1948",
+                  "date": "May 31, 1948",
                   "text": "Born in the west Ukrainian town of Stanislav (since 1962 Ivano-Frankivsk) to a Belarusian father and a Ukrainian mother, Svetlana Alexievich grew up in Belarus.",
                 },
                 {
@@ -318,7 +318,7 @@
                   "text": "Order of the Badge of Honour.",
                 },
                 {
-                  "date": "2000-е - 2013",
+                  "date": "2000 - 2013",
                   "text": "Lived in Italy, France, Germany.",
                 },
                 {
@@ -330,7 +330,7 @@
                   "text": "Nobel Prize in Literature.",
                 },
               ],
-              "works": [
+              "worksList": [
                 {
                   "title": "War's Unwomanly Face",
                   "date": "published in 1985",
@@ -363,7 +363,7 @@
             "timeline": [
               {
                 "date": "31 мая 1948",
-                "text": "Нарадзілася ў сям’і ваеннаслужачага (бацька — беларус, маці — украінка). У 1950-м годзе бацька дэмабілізаваўся, і сям’я пераехала ў Мазыр[8]. Сям’я перыядычна пераязджала разам з новымі месцамі працы бацькі, у 1961 годзе Алексіевічы пераехалі ў Петрыкаў.",
+                "text": "Нарадзілася ў сям’і ваеннаслужачага (бацька — беларус, маці — украінка). У 1950-м годзе бацька дэмабілізаваўся, і сям’я пераехала ў Мазыр. Сям’я перыядычна пераязджала разам з новымі месцамі працы бацькі, у 1961 годзе Алексіевічы пераехалі ў Петрыкаў.",
               },
               {
                 "date": "1965",
@@ -410,7 +410,7 @@
                 "text": "Міжнародная няўрадавая арганізацыя RAW in WAR прысудзіла Святлане Алексіевіч прэмію імя Ганны Паліткоўскай. Узнагароду ёй уручылі за «смелыя выступленні супраць несправядлівасці, гвалту і экстрэмізму ў сітуацыі працягу „забытых“ узброеных канфліктаў». У тым жа годзе пісьменніца атрымала прэмію Цэнтральнаеўрапейскага форума «Ганароваму грамадзяніну Цэнтральнай Еўропы» — «за ўнёсак у развіццё дэмакратыі і грамадзянскай супольнасці».",
               },
             ],
-            "works": [
+            "worksList": [
               {
                 "title": "У вайны не жаночае аблічча",
                 "date": "1985 - на рус. мове, на бел. мове - 1991",
@@ -461,7 +461,7 @@
               },
               {
                 "date": "1941 — 1942",
-                "text": "Жил на ст. Салтыковка и в городе Аткарске Саратовской области, учился в железнодорожной школе.",
+                "text": "Жил на ст. Салтыковка и в городе Аткарске Саратовской области, учился в железнодорожной школе."
               },
               {
                 "date": "1942",
@@ -501,10 +501,10 @@
               },
                     {
                 "date": "22 июня 2003",
-                "text": "Умер 22 июня 2003 года в 20 часов 30 минут от злокачественной опухоли желудка в реанимационном отделении онкологического госпиталя в Боровлянах, под Минском[12]. Он был отпет в минском Доме литератора согласно обряду Грекокатолической церкви; гроб писателя был накрыт бело-красно-белым флагом. Похоронен на Восточном кладбище в Минске.",
+                "text": "Умер 22 июня 2003 года в 20 часов 30 минут от злокачественной опухоли желудка в реанимационном отделении онкологического госпиталя в Боровлянах, под Минском. Он был отпет в минском Доме литератора согласно обряду Грекокатолической церкви; гроб писателя был накрыт бело-красно-белым флагом. Похоронен на Восточном кладбище в Минске.",
               },
             ],
-            "works": [
+            "worksList": [
               {
                 "title": "Журавлиный крик",
                 "date": "1959",
@@ -550,33 +550,90 @@
           "birthPlace": "Bychki, Ushacky region, Vitebsk oblast",
           "summary": "Vasil Vladimirovich Bykov a prolific author of novels and novellas about World War II and a significant figure in soviet and Belarusian literature and civic thought. His work earned him endorsements for the Nobel Prize nomination from, among others, Nobel Prize laureates Joseph Brodsky and Czesław Miłosz.",
           "info": {
-             "timeline": [],
-              "works": [
-                {
-                  "title": "Crane's Cry",
-                  "date": "1959",
-                },
-                {
-                  "title": "The Ordeal",
-                  "date": "1970",
-                },
-                {
-                  "title": "The Obelisk",
-                  "date": "1971",
-                },
-                {
-                  "title": "To Live till Sunrise",
-                  "date": "1972",
-                },
-                {
-                  "title": "Sign of Misfortune",
-                  "date": "1983",
-                },
-                {
-                  "title": "The Long Road Home",
-                  "date": "2003",
-                },
-              ],
+            "timeline": [
+              {
+                "date": "June 19, 1924 - 1939",
+                "text": "Born in the village of Bychki, Vitebsk region, into a peasant family. From childhood he was fond of drawing. He graduated from the 8th grade of school in the village of Kublichi."
+              },
+              {
+                "date": "1939 - 1941",
+                "text": "He studied at the sculptural department of the Vitebsk Art School (1939-1940), which he left because of the abolition of scholarships, and at the school FZO (until May 1941). In June 1941, he passed the exams for the 10th grade."
+              },
+              {
+                "date": "1941",
+                "text": "The war found him in Ukraine, where he participated in defense works. During the retreat in Belgorod, he lagged behind his column and was arrested, Bykov was nearly shot as a German spy.",
+              },
+              {
+                "date": "1941 - 1942",
+                "text": "Lived at the station of Saltykovka and in the city of Atkarsk of the Saratov region, studied at a railway school.",
+              },
+              {
+                "date": "1942",
+                "text": "Called to the army in the summer, graduated from the Saratov Infantry School.",
+              },
+              {
+                "date": "1943",
+                "text": "V. Bykov was given the rank of junior lieutenant. Participated in the battles for Krivoy Rog, Alexandria, Znamenka. During the Kirovograd operation he was wounded in the leg and stomach (mistakenly recorded as lost); events after his injury served as the basis of the story" Dead don't hurt. ""
+              },
+              {
+                "date": "1944",
+                "text": "I was in hospital for three months. Then I participated in the Yassy-Chisinau operation, the liberation of Romania. I went through the army in Bulgaria, Hungary, Yugoslavia, Austria; senior lieutenant, commander of a regimental regiment, then army artillery."
+              },
+              {
+                "date": "from 1947, 1955 - 1972",
+                "text": "Lived in Grodno. It was printed, worked in workshops, and also in the editorial office of the regional newspaper" Grodno truth "(until 1949, then from 1955 to 1972)."
+              },
+              {
+                "date": "1949 - 1955",
+                "text": "He served again in the Soviet army, in 1955, he was completely discharged as a major.",
+              },
+              {
+                "date": "1972 - 1978",
+                "text": "Secretary of the Grodno branch of the Writers' Union of the Belarusian SSR.",
+              },
+              {
+                "date": "1978 - 1989",
+                "text": "Moved to Minsk. Elected deputy of the Supreme Soviet of the Byelorussian SSR in 1978-1989.",
+              },
+              {
+                "date": "1988 - 1996",
+                "text": "Political activity. He became one of the founders of the Belarusian Popular Front. In 1988, he was a member of the State Commission for the Investigation of Soviet Crimes in Kurapaty. In 1989, he was elected People's Deputy of the USSR, joined the Interregional Deputy Group. He was President of the Belarusian PEN In October 1990, he signed the “Roman Appeal.” In 1990-1993, he was the president of the Unite of Belarusians of the World “Batkaushchyna” (Russian Fatherland). In October 1993, he signed an open “letter of forty-two.” At the Presidential elections of 1994 He led Zenon Poznyak’s confidant. He headed the organizing committee of the rally held on March 24, 1996, on the eve of the signing of the first integration agreements between Belarus and Russia. The rally became part of the Minsk Spring. The Belarusian Popular Front Party organized the rally. "
+              },
+              {
+                "date": "since 1997",
+                "text": "He lived abroad in a political emigration - first, at the invitation of the PEN center of Finland, he lived in the suburbs of Helsinki, then, after receiving an invitation from the PEN center of Germany, he moved to Germany, and then to the Czech Republic. He returned home only a month before his death . ",
+              },
+              {
+                "date": "June 22, 2003",
+                "text": "He died on June 22, 2003 at 20 hours 30 minutes from a malignant stomach tumor in the intensive care unit of the oncological hospital in Borovlyany, near Minsk. Buried at the Eastern cemetery in Minsk. ",
+              },
+            ],
+            "worksList": [
+              {
+                "title": "Crane's Cry",
+                "date": "1959",
+              },
+              {
+                "title": "The Ordeal",
+                "date": "1970",
+              },
+              {
+                "title": "The Obelisk",
+                "date": "1971",
+              },
+              {
+                "title": "To Live till Sunrise",
+                "date": "1972",
+              },
+              {
+                "title": "Sign of Misfortune",
+                "date": "1983",
+              },
+              {
+                "title": "The Long Road Home",
+                "date": "2003",
+              },
+            ],
           },
         },
         "by": {
@@ -592,7 +649,7 @@
               },
               {
                 "date": "1939 — 1941",
-                "text": "Паступіў на скульптурнае аддзяленне Віцебскага мастацкага вучылішча. Аднак увосень 1940 года ў сувязі з пагаршэннем матэрыяльнага становішча сям’і і адменай дзяржаўных стыпендый вымушаны быў пакінуць вучобу[7]. Паступіў у Віцебскую школу ФЗН № 5, дзе вучыўся да мая 1941. У чэрвені 1941 года экстэрнам здаў экзамены за дзясяты клас.",
+                "text": "Паступіў на скульптурнае аддзяленне Віцебскага мастацкага вучылішча. Аднак увосень 1940 года ў сувязі з пагаршэннем матэрыяльнага становішча сям’і і адменай дзяржаўных стыпендый вымушаны быў пакінуць вучобу. Паступіў у Віцебскую школу ФЗН № 5, дзе вучыўся да мая 1941. У чэрвені 1941 года экстэрнам здаў экзамены за дзясяты клас.",
               },
               {
                 "date": "1941",
@@ -643,7 +700,7 @@
                 "text": "Памёр 22 чэрвеня 2003 года ў 20 гадзін 30 хвілін у рэанімацыйным аддзяленні анкалагічнага шпіталю ў Бараўлянах, пад Мінскам. Пахаваны ў Мінску на Усходніх могілках. Падчас пахавання быў адпеты ўніяцкімі святарамі, труну пісьменніка накрылі бел-чырвона-белым сцягам.",
               },
             ],
-            "works": [
+            "worksList": [
               {
                 "title": "Жураўлины крык",
                 "date": "1959",
@@ -733,7 +790,7 @@
                 "text": "Скончался в Минске. Похоронен на Восточном кладбище.",
               },
             ],
-            "works": [
+            "worksList": [
               {
                 "title": "Криницы",
                 "date": "1957",
@@ -809,11 +866,11 @@
                 "text": "Became the academician of the National Academy of Sciences.",
               },
               {
-                "date": "14 октября 2004",
+                "date": "October 14, 2004",
                 "text": "Died in Minsk.",
               },
             ],
-            "works": [
+            "worksList": [
               {
                 "title": "Deep streams",
                 "date": "1949",
@@ -889,7 +946,7 @@
                 "text": "Памёр у Мінску. Пахаваны на Усходніх могілках.",
               },
             ],
-            "works": [
+            "worksList": [
               {
                 "title": "Глыбокая плынь",
                 "date": "1949",
@@ -979,7 +1036,7 @@
                 "text": "Умер в Москве от второго инфаркта. По завещанию похоронен в городском посёлке Глуша Бобруйского района Могилёвской области рядом с родителями.",
               },
             ],
-            "works": [
+            "worksList": [
               {
                 "title": "Партизаны",
                 "date": "1960, 1963",
@@ -1019,7 +1076,7 @@
           "info": {
             "timeline": [
               {
-                "date": "3 сентября 1927",
+                "date": "September 3, 1927",
                 "text": "Was born in a village in the Minsk Oblast. Both his parents were doctors.",
               },
               {
@@ -1047,11 +1104,11 @@
                 "text": "One of the first members of the Belarusian PEN center (Vasil Bykov was founder and president of the Belarusian PEN).",
               },
               {
-                "date": "26 января 1994",
+                "date": "January 26, 1994",
                 "text": "Adamovich died.",
               },
             ],
-            "works": [
+            "worksList": [
               {
                 "title": "The partisans",
                 "date": "1960, 1963",
@@ -1083,7 +1140,7 @@
                 "text": "Нарадзіўся ў сям'і служачых.",
               },
               {
-                "date": "с 1927",
+                "date": "з 1927",
                 "text": "Сям'я пражывала ў пасёлку Глуша Бабруйскага раёна.",
               },
               {
@@ -1092,7 +1149,7 @@
               },
               {
                 "date": "1945 — 1953",
-                "text": "Вярнуўся ў Беларусь, экстэрнам здаў экзамены за сярэднюю школу. У 1945—1950 вучыўся на філалагічным факультэце БДУ[3], у 1953 скончыў аспірантуру пры ўніверсітэце і працаваў там жа на кафедры беларускай літаратуры.",
+                "text": "Вярнуўся ў Беларусь, экстэрнам здаў экзамены за сярэднюю школу. У 1945—1950 вучыўся на філалагічным факультэце БДУ, у 1953 скончыў аспірантуру пры ўніверсітэце і працаваў там жа на кафедры беларускай літаратуры.",
               },
               {
                 "date": "1954 — 1962, з 1967",
@@ -1119,7 +1176,7 @@
                 "text": "Памёр ад хваробы сэрца.",
               },
             ],
-            "works": [
+            "worksList": [
               {
                 "title": "Партизаны",
                 "date": "1960, 1963",
