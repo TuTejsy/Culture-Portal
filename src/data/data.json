@@ -927,5 +927,227 @@
         }
       }
     },
+    {
+      "photo": "../images/adamovich.jpg",
+      "video": "v7P1Jc1KYvk",
+      "language": {
+        "ru": {
+          "name": "Александр (Алесь) Михайлович Адамович",
+          "date": "3 сентября 1927 - 26 января 1994",
+          "birthPlace": "дер. Конюхи, Копыльский район, Минская область",
+          "summary": "Белорусский советский писатель, сценарист и литературовед, критик. Доктор филологических наук (1962), профессор (1971), член-корреспондент АН БССР (1980).",
+          "info": {
+            "timeline": [
+              {
+                "date": "3 сентября 1927",
+                "text": "Родился в семье врачей.",
+              },
+              {
+                "date": "с 1927",
+                "text": "Семья проживала в посёлке Глуша Бобруйского района.",
+              },
+              {
+                "date": "1940 - 1945",
+                "text": "Мать во время Великой Отечественной войны, спасая сына от угона в Германию, в школьном свидетельстве исправила дату его рождения на более позднюю. Во время войны, в 1942 году, Алесь Адамович, ученик средней школы, — связной, 1943 г. — боец партизанского отряда имени Кирова 37-й бригады имени Пархоменко Минского соединения. В 1944—1945 по направлению ЦШПД (Центральный штаб партизанского движения) — студент Лениногорского горно-металлургического техникума.",
+              },
+              {
+                "date": "1945 — 1953",
+                "text": "Вернулся в Белоруссию, экстерном сдал экзамены за среднюю школу. В 1945 — 1950 учился на филологическом факультете БГУ, в 1953 закончил аспирантуру при университете и работал там же на кафедре белорусской литературы.",
+              },
+              {
+                "date": "1954 — 1962, с 1967",
+                "text": "Научный сотрудник. С 1962 - доктор филологических наук.",
+              },
+              {
+                "date": "1976 - 1983, с 1976",
+                "text": "Заведующий сектора литературных взаимосвязей Института литературы имени Янки Купалы АН БССР.",
+              },
+              {
+                "date": "1962 - 1966",
+                "text": "Учился на Высших сценарных курсах в Москве. Преподавал в МГУ курс белорусской литературы, был отстранён от преподавания за отказ подписать письмо с осуждением Ю. Даниэля и А. Синявского.",
+              },
+              {
+                "date": "1982",
+                "text": "В составе делегации БССР принимал участие в работ XXXVII сессии Генеральной Ассамблеи ООН.",
+              },
+              {
+                "date": "1987 — 1994",
+                "text": "Директор Всесоюзного НИИ кинематографии в Москве.",
+              },
+              {
+                "date": "26 января 1994",
+                "text": "Умер в Москве от второго инфаркта. По завещанию похоронен в городском посёлке Глуша Бобруйского района Могилёвской области рядом с родителями.",
+              },
+            ],
+            "works": [
+              {
+                "title": "Партизаны",
+                "date": "1960, 1963",
+              },
+              {
+                "title": "Последний отпуск",
+                "date": "1969",
+              },
+              {
+                "title": "Я из огненной деревни (с Я. Брылем и В. Колесником)",
+                "date": "1977",
+              },
+              {
+                "title": "Хатынская повесть",
+                "date": "1971",
+              },
+              {
+                "title": "Каратели, или Жизнеописание гипербореев",
+                "date": "1980",
+              },
+              {
+                "title": "Блокадная книга (с Д. Граниным)",
+                "date": "1980",
+              },
+              {
+                "title": "Последняя пастораль",
+                "date": "1987",
+              },
+            ],
+          }
+        },
+        "en": {
+          "name": "Aliaksandar (Ales) Mikhailavich Adamovich",
+          "date": "September 3, 1927 - January 26, 1994",
+          "birthPlace": "Hlusha, Kapylsk region, Minsk voblast",
+          "summary": "A Belarusian Soviet writer and a critic, Professor and Corresponding Member of the Academy of Sciences of Belarus, Doctor of Philosophy in philology, Doctorate in 1962 (a degree in Russia corresponding to Habilitation); member of the Supreme Soviet (1989 – 92). He wrote in Russian and Belarusian. He is best known for The Khatyn Story, The Blockade Book and writing screenplay for Soviet movie Come and See. He is highly regarded for his austere yet deeply humane antiwar stance, moral courage and uncompromising honesty.",
+          "info": {
+            "timeline": [
+              {
+                "date": "3 сентября 1927",
+                "text": "Was born in a village in the Minsk Oblast. Both his parents were doctors.",
+              },
+              {
+                "date": "1940 - 1945",
+                "text": "During World War II Adamovich, a teenager, still a school student, became a partisan unit member in 1942-1943. During this time, the Nazis systematically torched hundreds of Belarusian villages and exterminated their inhabitants. Later, he wrote one of his most recognized works, The Khatyn Story, and the screenplay for the film Come and See, which was based on his real-life experiences as a messenger and a guerilla fighter during the war.",
+              },
+              {
+                "date": "1945 — 1953",
+                "text": "After the war, he entered the Belarusian State University where he studied in the philology department and where he completed graduate course.",
+              },
+              {
+                "date": "since 1957",
+                "text": "He is a member of the Union of Soviet Writers.",
+              },
+              {
+                "date": "1962 - 1966",
+                "text": "Studied in Moscow at the Higher Courses for Screenwriters and in the Moscow State University.",
+              },
+              {
+                "date": "1976",
+                "text": "He was awarded the Yakub Kolas Belarus State prize in literature for The Khatyn Story.",
+              },
+              {
+                "date": "1989",
+                "text": "One of the first members of the Belarusian PEN center (Vasil Bykov was founder and president of the Belarusian PEN).",
+              },
+              {
+                "date": "26 января 1994",
+                "text": "Adamovich died.",
+              },
+            ],
+            "works": [
+              {
+                "title": "The partisans",
+                "date": "1960, 1963",
+              },
+              {
+                "title": "Out of the fire (with Yanka Bryl and Uladzimir Kalesnik)",
+                "date": "1977",
+              },
+              {
+                "title": "The Khatyn story",
+                "date": "1971",
+              },
+              {
+                "title": "The blockade book (with D. Granin)",
+                "date": "1980",
+              },
+            ],
+          }
+        },
+        "by": {
+          "name": "Аляксандр (Алесь) Міхайлавіч Адамовіч",
+          "date": "3 верасня 1927 - 26 студзеня 1994",
+          "birthPlace": "в. Канюхі, Капыльскі раён, Мінская вобласць",
+          "summary": "Беларускі пісьменнік і грамадскі дзеяч.",
+          "info": {
+            "timeline": [
+              {
+                "date": "3 верасня 1927",
+                "text": "Нарадзіўся ў сям'і служачых.",
+              },
+              {
+                "date": "с 1927",
+                "text": "Сям'я пражывала ў пасёлку Глуша Бабруйскага раёна.",
+              },
+              {
+                "date": "1940 - 1945",
+                "text": "Падчас Вялікай Айчыннай вайны, у 1942 Алесь Адамовіч, вучань сярэдняй школы, — сувязны, з 1943 — баец партызанскага атрада імя Кірава 37-й брыгады імя Пархоменкі Мінскага злучэння. У 1944—1945 па накіраванню ЦШПР (Цэнтральны штаб партызанскага руху) — студэнт Ленінагорскага горна-металургічнага тэхнікума (Алтайскі край)",
+              },
+              {
+                "date": "1945 — 1953",
+                "text": "Вярнуўся ў Беларусь, экстэрнам здаў экзамены за сярэднюю школу. У 1945—1950 вучыўся на філалагічным факультэце БДУ[3], у 1953 скончыў аспірантуру пры ўніверсітэце і працаваў там жа на кафедры беларускай літаратуры.",
+              },
+              {
+                "date": "1954 — 1962, з 1967",
+                "text": "Навуковы супрацоўнік.",
+              },
+              {
+                "date": "1976 - 1983, з 1976",
+                "text": "Загадчык сектара літаратурных узаемасувязей Інстытута літаратуры імя Янкі Купалы АН БССР.",
+              },
+              {
+                "date": "1962 - 1966",
+                "text": "Вучыўся на Вышэйшых сцэнарных курсах у Маскве. выкладаў беларускую літаратуру ў Маскоўскім дзяржаўным унівесітэце.",
+              },
+              {
+                "date": "1982",
+                "text": "У складзе дэлегацыі БССР удзельнічаў у рабоце XXXVII сесіі Генеральнай Асамблеі ААН.",
+              },
+              {
+                "date": "1987 — 1994",
+                "text": "Дырэктар навукова-даследчага Інстытута кінамастацтва ў Маскве.",
+              },
+              {
+                "date": "26 студзеня 1994",
+                "text": "Памёр ад хваробы сэрца.",
+              },
+            ],
+            "works": [
+              {
+                "title": "Партизаны",
+                "date": "1960, 1963",
+              },
+              {
+                "title": "Я з вогненнай вёскі (с Я. Брылём и В. Калеснікам)",
+                "date": "1977",
+              },
+              {
+                "title": "Хатынская аповесць",
+                "date": "1971",
+              },
+              {
+                "title": "Каратели, или Жизнеописание гипербореев",
+                "date": "1980",
+              },
+              {
+                "title": "Блокадная книга (з Д. Граніным)",
+                "date": "1980",
+              },
+              {
+                "title": "Последняя пастораль",
+                "date": "1987",
+              },
+            ],
+          }
+        }
+      }
+    },
   ]
 }
