@@ -3,6 +3,7 @@ import { Timeline, TimelineItem } from "vertical-timeline-component-for-react"
 
 import "./styles/bootstrap.css"
 import "./styles/Author.css"
+import data from "../data/data"
 
 const language = "ru"
 
@@ -13,7 +14,7 @@ function BasicInfo(props) {
         src="https://pbs.twimg.com/profile_images/2199788887/22_400x400.jpg"
         alt={props.author.photo}
         className="rounded mr-3 ml-3"
-        width="200px" 
+        width="200px"
       ></img>
       <div className="">
         <h1>{props.author.language[language].name}</h1>
@@ -25,7 +26,7 @@ function BasicInfo(props) {
   )
 }
 
-function VideoComponent({videoId}) {
+function VideoComponent({ videoId }) {
   const url = `https://www.youtube.com/embed/${videoId}`
   return (
     <div className="embed-responsive embed-responsive-16by9 mb-5">
@@ -34,69 +35,42 @@ function VideoComponent({videoId}) {
         src={url}
         allowFullScreen
         title="title"
-      >
-      </iframe>
+      ></iframe>
     </div>
   )
 }
 
+function createWorksRow(author, number){
+  return(
+    <tr key={number}>
+      <td>{author.date}</td>
+      <td>{author.title}</td>
+    </tr>
+  )
+}
+
+function Works(props) {
+  const Masterpiece = props.author.language[language].info.works;
+  return (
+    <table className="table table-striped table-bordered table-hover">
+      <tbody className="">
+        {Masterpiece.map(createWorksRow)}
+      </tbody>
+    </table>
+  )
+}
+
 class Author extends React.Component {
-  // const response = fetch(
-  //   `https://rawcdn.githack.com/TuTejsy/Culture-Portal/
-  // 489e0a33295b2a2dc1a1245c2c99cf4c4eb75c57/src/data/data.json`
-  // );
   constructor(props) {
     super(props)
     this.state = {
-      authors: [
-        {
-          photo: "Photo", //Фотография 200px/200px
-          video: "NMnU1hJwal8", //id youtube
-          years: "2145-2493", // годы жизни
-          mapInfo: "some cords", //пока хз, надо согласовать с виджетом
-          language: {
-            ru: {
-              name: "виталя 21tg134 g543eqrbewtbewr rnre ety", // Фио
-              city: "Минск", //Город рождения
-              info: [
-                // list of artist's works with the date of creation
-                { date: "1234", text: "Childhood bla bla" },
-                { date: "1224", text: "WOAAA" },
-                { date: "114", text: "LULULULULUL" },
-                { date: "1784", text: "Ok yes" },
-              ],
-              worksList: [
-                // list of artist's works with the date of creation
-                {
-                  artName: "Библиотека",
-                  date: "14.05.1462",
-                },
-                {
-                  artName: "Музей кротов",
-                  date: "04.01.1294",
-                },
-              ],
-            },
-            en: {
-              name: "Vitalya",
-              city: "Minsk",
-              info: "Da",
-            },
-            by: {
-              name: "Бацька",
-              info: "Бульба",
-              city: "Мiнск",
-            },
-          },
-        },
-      ],
+      authors: [data],
     }
   }
 
   // async componentDidMount() {
   //   const response = await fetch(`https://rawcdn.githack.com/TuTejsy/Culture-Portal/489e0a33295b2a2dc1a1245c2c99cf4c4eb75c57/src/data/data.json`);
   //   const json = await response.json();
-  //   console.log(json);
   //   this.setState({authors: json.authors});
   // }
 
@@ -107,9 +81,10 @@ class Author extends React.Component {
       <div className="container w-75 mt-5">
         <BasicInfo author={currentAuthor}></BasicInfo>
         <AuthorTimeLine author={currentAuthor}></AuthorTimeLine>
-        <VideoComponent videoId={currentAuthor.video}></VideoComponent>
-        {/* <galleryComponent></galleryComponent>  */}
+        <Works author={currentAuthor}></Works>
         {/* <mapComponent></mapComponent>  */}
+        {/* <galleryComponent></galleryComponent>  */}
+        <VideoComponent videoId={currentAuthor.video}></VideoComponent>
       </div>
     )
   }
@@ -138,7 +113,7 @@ function CreateTimelineItem(props, number) {
 function AuthorTimeLine(props) {
   return (
     <Timeline lineColor={"#ddd"}>
-      {props.author.language[language].info.map(CreateTimelineItem)}
+      {props.author.language[language].info.timeline.map(CreateTimelineItem)}
     </Timeline>
   )
 }
