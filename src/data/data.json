@@ -1,20 +1,20 @@
 {
   "authors": [
     {
-      "photo": "",
-      "video": "",
+      "photo": "photo",
+      "video": "video",
       "language": {
         "ru": {
-          "name": "",
-          "info": ""
+          "name": "nameRu",
+          "info": "infoRu"
         },
         "en": {
-          "name": "",
-          "info": ""
+          "name": "nameEn",
+          "info": "infoEn"
         },
         "by": {
-          "name": "",
-          "info": ""
+          "name": "nameBy",
+          "info": "infoBy"
         }
       }
     }
