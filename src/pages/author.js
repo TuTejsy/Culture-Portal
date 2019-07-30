@@ -4,13 +4,12 @@ import React from "react"
 import Layout from "../components/Layout"
 import SEO from "../components/Seo"
 import Author from "../components/Author"
-// import { async } from "q";
 
 
 function authorPage() {
   return(
   <Layout>
-    <SEO title="Main" />
+    <SEO title="Main"/>
     <Author></Author>
   </Layout>
   )

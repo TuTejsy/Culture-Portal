@@ -1,20 +1,30 @@
 import React from "react"
 import { Timeline, TimelineItem } from "vertical-timeline-component-for-react"
 
+import "./styles/bootstrap.css"
 import "./styles/Author.css"
+
 
 function BasicInfo(props) {
   return (
-    <div className="basic-info">
-      <div className="basic-info__image">
-        <img src="" alt={props.author.photo}></img>{" "}
-      </div>
-      <div className="basic-info__text">
+    <div className="media">
+
+        <img 
+        src="https://pbs.twimg.com/profile_images/2199788887/22_400x400.jpg" 
+        alt={props.author.photo} className="rounded mr-3" width="200px"></img>{" "}
+
+      <div className="media-body">
         <h2>{props.author.language.ru.name}</h2>
         {props.author.language.ru.info}
-        <br></br>
-
       </div>
+    </div>
+  )
+}
+
+function videoComponent(props) {
+  return (
+    <div className="videoComponent">
+
     </div>
   )
 }
@@ -28,20 +38,40 @@ class Author extends React.Component {
     this.state = {
       "authors": [
         {
-          "photo": "Photo",
-          "video": "Video",
-          "language": {
+          "photo": "Photo",//Фотография 200px/200px
+          "video": "NMnU1hJwal8",//id youtube 
+          "years": "2145-2493",// годы жизни
+          "mapInfo": "some cords", //пока хз, надо согласовать с виджетом
+          "language": { 
             "ru": {
-              "name": "виталя",
-              "info": "Величайший"
+              "name": "виталя",// Фио
+              "city": "Минск",//Город рождения
+              "info": [// list of artist's works with the date of creation
+                "Childhood bla bla",
+                "Best years bla bla",
+                "some else life events",
+                "old years bla bla"
+              ],
+              "worksList":[ // list of artist's works with the date of creation
+                {
+                  "artName": "Библиотека",
+                  "date": "14.05.1462"
+                },
+                {
+                  "artName": "Музей кротов",
+                  "date": "04.01.1294"
+                }
+              ]
             },
             "en": {
-              "name": "Hu",
+              "name": "Vitalya",
+              "city": "Minsk",
               "info": "Da"
             },
             "by": {
               "name": "Бацька",
-              "info": "Бульба"
+              "info": "Бульба",
+              "city": "Мiнск"
             }
           }
         }
@@ -49,22 +79,22 @@ class Author extends React.Component {
     };
   }
 
-  async componentDidMount() {
-    const response = await fetch(`https://rawcdn.githack.com/TuTejsy/Culture-Portal/489e0a33295b2a2dc1a1245c2c99cf4c4eb75c57/src/data/data.json`);
-    const json = await response.json();
-    console.log(json);
-    this.setState({authors: json.authors});
-  }
+  // async componentDidMount() {
+  //   const response = await fetch(`https://rawcdn.githack.com/TuTejsy/Culture-Portal/489e0a33295b2a2dc1a1245c2c99cf4c4eb75c57/src/data/data.json`);
+  //   const json = await response.json();
+  //   console.log(json);
+  //   this.setState({authors: json.authors});
+  // }
 
   render() {
     const authorNumber = 0;
     const currentAuthor = this.state.authors[0];
     return (
-      <div className="author-container">
+      <div className="container w-75 mt-5">
 
         <BasicInfo author={currentAuthor}></BasicInfo>
-        <AuthorTimeLine author={currentAuthor}></AuthorTimeLine>
-        {/* <videoComponent></videoComponent> */}
+        {/* <AuthorTimeLine author={currentAuthor}></AuthorTimeLine> */}
+        <videoComponent author={currentAuthor.video}></videoComponent>
         {/* <galleryComponent></galleryComponent>  */}
         {/* <mapComponent></mapComponent>  */}
       </div>
