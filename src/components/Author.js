@@ -7,19 +7,20 @@ import data from "../data/data"
 
 const language = "ru"
 
-function BasicInfo(props) {
+function BasicInfo({author}) {
+  console.log(author.photo);
   return (
     <div className="d-flex flex-column flex-md-row">
       <img
-        src="https://pbs.twimg.com/profile_images/2199788887/22_400x400.jpg"
-        alt={props.author.photo}
+        src={author.photo}
+        alt="Фото автора"
         className="rounded mr-3 ml-3"
         width="200px"
       ></img>
       <div className="">
-        <h1>{props.author.language[language].name}</h1>
+        <h1>{author.language[language].name}</h1>
         <h5>
-          {props.author.years}, {props.author.language[language].city}
+          {author.language[language].birthPlace}
         </h5>
       </div>
     </div>
