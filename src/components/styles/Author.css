@@ -1,0 +1,22 @@
+:root{
+    --imageSize: 200px;
+}
+
+.author-container{
+    margin-top: 150px;
+}
+
+.basic-info{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+
+.basic-info__image{
+    width: var(--imageSize);
+    height: var(--imageSize);
+    background-color: aquamarine;
+}
+
+/* .basic-info__text{
+
+} */
