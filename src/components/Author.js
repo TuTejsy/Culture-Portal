@@ -4,6 +4,7 @@ import { Timeline, TimelineItem } from "vertical-timeline-component-for-react"
 import "./styles/bootstrap.css"
 import "./styles/Author.css"
 import data from "../data/data"
+import MapWidget from '../components/MapWidget';
 
 const language = "ru"
 
@@ -83,7 +84,7 @@ class Author extends React.Component {
         <BasicInfo author={currentAuthor}></BasicInfo>
         <AuthorTimeLine author={currentAuthor}></AuthorTimeLine>
         <Works author={currentAuthor}></Works>
-        {/* <mapComponent></mapComponent>  */}
+        <MapWidget author={currentAuthor} />
         {/* <galleryComponent></galleryComponent>  */}
         <VideoComponent videoId={currentAuthor.video}></VideoComponent>
       </div>
