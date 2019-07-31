@@ -3,6 +3,26 @@
     {
       "photo": "../images/korotkevich.jpg",
       "video": "k8RQqc2Jocg",
+      "mapInfo": [
+        {
+          "point": "Orsha, place of birth",
+          "longitude": "54.510741",
+          "latitude": "30.429586",
+          "zIndex": "1"
+        },
+        {
+          "point": "Minsk, first flat",
+          "longitude": "53.926955",
+          "latitude": "27.600450",
+          "zIndex": "2"
+        },
+        {
+          "point": "Minsk, second flat",
+          "longitude": "53.923403",
+          "latitude": "27.551842",
+          "zIndex": "3"
+        },
+      ],
       "language": {
         "ru": {
           "name": "Владимир Семёнович Короткевич",
@@ -213,6 +233,20 @@
     {
       "photo": "../images/alexievich.jpg",
       "video": "fTQXe-lX59M",
+      "mapInfo": [
+        {
+          "point": "Ivano-Frankovsk, place of birth",
+          "longitude": "48.922629",
+          "latitude": "24.711108",
+          "zIndex": "1"
+        },
+        {
+          "point": "Berioza, first flat",
+          "longitude": "52.534603",
+          "latitude": "24.984475",
+          "zIndex": "2"
+        },
+      ],
       "language": {
         "ru": {
           "name": "Светлана Александровна Алексиевич",
@@ -439,6 +473,38 @@
     {
       "photo": "../images/bykov.jpg",
       "video": "WMZxWOejw_A",
+      "mapInfo": [
+        {
+          "point": "Bychki, place of birth; Bykov's museum",
+          "longitude": "55.165832",
+          "latitude": "28.379720",
+          "zIndex": "1"
+        },
+        {
+          "point": "Vitebsk Art School, place of education",
+          "longitude": "55.188540",
+          "latitude": "30.202797",
+          "zIndex": "2"
+        },
+        {
+          "point": "Grodno, Trojetskaja str., first flat",
+          "longitude": "53.680772",
+          "latitude": "23.828415",
+          "zIndex": "3"
+        },
+        {
+          "point": "Grodno, Sverdlova str., second flat",
+          "longitude": "53.675530",
+          "latitude": "23.834595",
+          "zIndex": "4"
+        },
+        {
+          "point": "Grodno, Parizhskai Kommuny str., third flat",
+          "longitude": "53.673865",
+          "latitude": "23.835377",
+          "zIndex": "5"
+        },
+      ],
       "language": {
         "ru": {
           "name": "Василь Владимирович Быков",
@@ -745,6 +811,20 @@
     {
       "photo": "../images/shamiakin.jpg",
       "video": "YcJGh_11rmY",
+      "mapInfo": [
+        {
+          "point": "Korma, place of birth",
+          "longitude": "53.128672", 
+          "latitude": "30.804318",
+          "zIndex": "1"
+        },
+        {
+          "point": "Minsk, East Cemetery, Burial place",
+          "longitude": "53.940350",
+          "latitude": "27.660655",
+          "zIndex": "2"
+        },
+      ],
       "language": {
         "ru": {
           "name": "Иван Петрович Шамякин",
@@ -987,6 +1067,26 @@
     {
       "photo": "../images/adamovich.jpg",
       "video": "v7P1Jc1KYvk",
+      "mapInfo": [
+        {
+          "point": "Koniuhi, place of birth",
+          "longitude": "53.153153",
+          "latitude": "27.384935",
+          "zIndex": "1"
+        },
+        {
+          "point": "Belorusian State University, place of education and work",
+          "longitude": "53.893848",
+          "latitude": "27.547144",
+          "zIndex": "2"
+        },
+        {
+          "point": "Glusha, Mogilev oblast, burial place",
+          "longitude": "53.087324",
+          "latitude": "28.855971",
+          "zIndex": "3"
+        },
+      ],
       "language": {
         "ru": {
           "name": "Александр (Алесь) Михайлович Адамович",
