@@ -3,6 +3,7 @@ import PropTypes from "prop-types"
 import React from "react"
 
 import './styles/Header.css'
+import '../../node_modules/bootstrap/dist/css/bootstrap.css'
 
 const Header = ({ siteTitle, lang, setLang }) => {
   const handleLangClick = e => {
@@ -14,9 +15,9 @@ const Header = ({ siteTitle, lang, setLang }) => {
 
   return (
     <header className="page-header">
-      <div className="page-header__container">
+      <div className="page-header__container navbar">
         <h1 style={{ margin: 0 }}>
-          <Link to="/"
+          <Link  to="/"
             style={{
               color: `white`,
               textDecoration: `none`,
