@@ -27,7 +27,7 @@
         "ru": {
           "name": "Владимир Семёнович Короткевич",
           "date": "26 ноября 1930 - 25 июля 1984",
-          "birthPlace": "Орша, Витебская область",
+          "birthPlace": "Орша",
           "summary": "Белорусский советский писатель, поэт, драматург, сценарист и публицист, классик белорусской литературы. Является одной из наиболее ярких фигур в белорусской литературе XX столетия.",
           "info": {
             "timeline": [
@@ -107,7 +107,7 @@
         "en": {
           "name": "Vladimir Semionovich Korotkevich",
           "date": "November 26, 1930 - July 25, 1984",
-          "birthPlace": "Orsha, Vitebsk oblast",
+          "birthPlace": "Orsha",
           "summary": "Belarusian romantic writer.",
           "info": {
             "timeline": [
@@ -151,7 +151,7 @@
         "by": {
           "name": "Уладзімір Сямёнавіч Караткевіч",
           "date": "26 лістапада 1930 - 25 ліпеня 1984",
-          "birthPlace": "Орша, Віцебская вобласть",
+          "birthPlace": "Орша",
           "summary": "Беларускі паэт, празаік, драматург, публіцыст, перакладчык, сцэнарыст, класік беларускай літаратуры. Адна з найбольш вядомых постацей у беларускай літаратуры другой паловы XX ст. Першы беларускі пісьменнік, які звярнуўся да жанру гістарычнага дэтэктыву",
           "info": {
             "timeline": [
@@ -251,13 +251,13 @@
         "ru": {
           "name": "Светлана Александровна Алексиевич",
           "date": "31 мая 1948 - ...",
-          "birthPlace": "Станислав (Ивано-Франковск), Украина",
+          "birthPlace": "Станислав",
           "summary": "Cоветская и белорусская писательница, журналистка, сценарист документальных фильмов. Пишет на русском языке. Первый белорусский и шестой русскоязычный лауреат Нобелевской премии по литературе (2015 год).",
           "info": {
             "timeline": [
               {
                 "date": "31 мая 1948",
-                "text": "Родился в Станиславе. После демобилизации отца семья переехала в Минск, отец и мать работали сельскими учителями. Мать отца умерла от тифа в партизанах, из троих её сыновей двое пропали без вести, а отец вернулся с фронта. Отец матери погиб на фронте. Прадед отца тоже был сельским учителем. По её словам, всё своё детство провела в украинском селе, в Винницкой области."
+                "text": "Родился в Станиславе (сейчас Ивано-Франковск). После демобилизации отца семья переехала в Минск, отец и мать работали сельскими учителями. Мать отца умерла от тифа в партизанах, из троих её сыновей двое пропали без вести, а отец вернулся с фронта. Отец матери погиб на фронте. Прадед отца тоже был сельским учителем. По её словам, всё своё детство провела в украинском селе, в Винницкой области."
               },
               {
                 "date": "1965",
@@ -327,7 +327,7 @@
         "en": {
           "name": "Svetlana Alexandrovna Alexievich",
           "date": "May 31, 1948 - ...",
-          "birthPlace": "Stanislav (Ivano-Frankivsk), Ukraine",
+          "birthPlace": "Stanislav",
           "summary": "Belarusian investigative journalist, essayist and oral historian who writes in Russian. She was awarded the 2015 Nobel Prize in Literature «for her polyphonic writings, a monument to suffering and courage in our time». She is the first writer from Belarus to receive the award.",
           "info": {
             "timeline": [
@@ -391,7 +391,7 @@
         "by": {
           "name": "Святлана Аляксандраўна Алексіевіч",
           "date": "31 мая 1948 - ...",
-          "birthPlace": "Станіслаў (Івана-Франкоўск), Украіна",
+          "birthPlace": "Станіслаў",
           "summary": "Беларуская журналістка, пісьменніца. Піша на рускай мове. Лаўрэат Нобелеўскай прэміі па літаратуры (2015) «за шматгалосую творчасць — помнік пакутам і мужнасці ў наш час».",
           "info": {
             "timeline": [
@@ -509,7 +509,7 @@
         "ru": {
           "name": "Василь Владимирович Быков",
           "date": "19 июня 1924 - 22 июня 2003",
-          "birthPlace": "дер. Бычки, Ушачский район, Витебская область",
+          "birthPlace": "Бычки",
           "summary": "Cоветский и белорусский писатель, общественный деятель, участник Великой Отечественной войны. Член Союза писателей СССР.",
           "info": {
             "timeline": [
@@ -613,7 +613,7 @@
         "en": {
           "name": "Vasil Vladimirovich Bykov",
           "date": "June 19, 1924 - June 22, 2003",
-          "birthPlace": "Bychki, Ushacky region, Vitebsk oblast",
+          "birthPlace": "Bychki",
           "summary": "Vasil Vladimirovich Bykov a prolific author of novels and novellas about World War II and a significant figure in soviet and Belarusian literature and civic thought. His work earned him endorsements for the Nobel Prize nomination from, among others, Nobel Prize laureates Joseph Brodsky and Czesław Miłosz.",
           "info": {
             "timeline": [
@@ -705,7 +705,7 @@
         "by": {
           "name": "Васіль Уладзіміравіч Быкаў",
           "date": "19 чэрвеня 1924 - 22 чэрвеня 2003",
-          "birthPlace": "в. Бычкі, Ушацкі раён, Віцебская вобласць",
+          "birthPlace": "Бычкі",
           "summary": "Беларускі і савецкі пісьменнік і грамадскі дзеяч, удзельнік Вялікай Айчыннай вайны, капітан.",
           "info": {
             "timeline": [
@@ -829,7 +829,7 @@
         "ru": {
           "name": "Иван Петрович Шамякин",
           "date": "30 января 1921 - 14 октября 2004",
-          "birthPlace": "дер. Корма, Добрушский район, Гомельская область",
+          "birthPlace": "Корма",
           "summary": "Белорусский советский писатель, сценарист и драматург, общественный деятель. Народный писатель Белорусской ССР (1972). Герой Социалистического Труда (1981). Лауреат Сталинской премии третьей степени (1951). Член ВКП(б) с 1943 года. Академик Национальной академии наук Белоруссии (1994).",
           "info": {
             "timeline": [
@@ -909,7 +909,7 @@
         "en": {
           "name": "Ivan Petrovich Shamiakin",
           "date": "January 30, 1921 – October 14, 2004",
-          "birthPlace": "Korma, Dobrush region, Homiel oblast",
+          "birthPlace": "Korma",
           "summary": "A Soviet Belarusian writer, he was perhaps one of the most prolific writers of the Soviet BSSR, writing in a socialist realist style.",
           "info": {
             "timeline": [
@@ -989,7 +989,7 @@
         "by": {
           "name": "Іван Пятровіч Шамякін",
           "date": "30 студзеня 1924 - 14 кастрычніка 2003",
-          "birthPlace": "в. Карма, Добрушскі раён, Гомельская вобласць",
+          "birthPlace": "Карма",
           "summary": "Беларускі пісьменнік.",
           "info": {
             "timeline": [
@@ -1091,7 +1091,7 @@
         "ru": {
           "name": "Александр (Алесь) Михайлович Адамович",
           "date": "3 сентября 1927 - 26 января 1994",
-          "birthPlace": "дер. Конюхи, Копыльский район, Минская область",
+          "birthPlace": "Конюхи",
           "summary": "Белорусский советский писатель, сценарист и литературовед, критик. Доктор филологических наук (1962), профессор (1971), член-корреспондент АН БССР (1980).",
           "info": {
             "timeline": [
@@ -1171,13 +1171,13 @@
         "en": {
           "name": "Aliaksandar (Ales) Mikhailavich Adamovich",
           "date": "September 3, 1927 - January 26, 1994",
-          "birthPlace": "Hlusha, Kapylsk region, Minsk voblast",
+          "birthPlace": "Koniuhi",
           "summary": "A Belarusian Soviet writer and a critic, Professor and Corresponding Member of the Academy of Sciences of Belarus, Doctor of Philosophy in philology, Doctorate in 1962 (a degree in Russia corresponding to Habilitation); member of the Supreme Soviet (1989 – 92). He wrote in Russian and Belarusian. He is best known for The Khatyn Story, The Blockade Book and writing screenplay for Soviet movie Come and See. He is highly regarded for his austere yet deeply humane antiwar stance, moral courage and uncompromising honesty.",
           "info": {
             "timeline": [
               {
                 "date": "September 3, 1927",
-                "text": "Was born in a village in the Minsk Oblast. Both his parents were doctors."
+                "text": "Was born in a Koniuhi in the Minsk Oblast. Both his parents were doctors."
               },
               {
                 "date": "1940 - 1945",
@@ -1231,7 +1231,7 @@
         "by": {
           "name": "Аляксандр (Алесь) Міхайлавіч Адамовіч",
           "date": "3 верасня 1927 - 26 студзеня 1994",
-          "birthPlace": "в. Канюхі, Капыльскі раён, Мінская вобласць",
+          "birthPlace": "Канюхі",
           "summary": "Беларускі пісьменнік і грамадскі дзеяч.",
           "info": {
             "timeline": [
