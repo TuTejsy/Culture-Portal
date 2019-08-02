@@ -3,6 +3,7 @@ import React, { Component } from "react";
 import './styles/Search.css';
 import AuthorPreview from '../components/AuthorPreview'
 import data from '../data/data'
+import Author from "../components/Author"
 
 export default class Search extends Component {
   constructor() {
@@ -44,15 +45,16 @@ export default class Search extends Component {
   render() {
     return (
       <>
-        <div className="search-container">
+        {/*<div className="search-container">
           <input type="text" className="search-input" onChange={this.handleInputChange} />
           <select name="author-birthPlace" id="author-birthPlace" onChange={this.handleBirthPlaceChange}>
             <option value=""></option>
             {this.renderBirthPlaces()}
           </select>
-        </div>
+        </div>*/}
         <h1>{this.state.inputValue}</h1>
         <AuthorPreview lang={this.props.lang} />
+        <Author />
         <h1>{this.state.birthPlace}</h1>
         <p>Welcome to page 2</p>
       </>
