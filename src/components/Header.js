@@ -41,7 +41,7 @@ const Header = ({ siteTitle, lang, setLang }) => {
     <header className="page-header">
       <div className="page-header__container navbar">
         <h1 style={{ margin: 0 }}>
-    
+
           <Link to="/"
             state={{ lang }}
             style={{

@@ -2,7 +2,7 @@ import React, { Component } from "react";
 
 import './styles/Search.css';
 import AuthorPreview from '../components/AuthorPreview'
-import data from '../data/data'
+import * as data from '../data/data.json'
 
 export default class Search extends Component {
   constructor() {
@@ -17,9 +17,11 @@ export default class Search extends Component {
   renderBirthPlaces = () => {
     if (!this.props.lang) return;
 
+    const authors = data.authors;
+
     let unicPlaces = [];
 
-    let birthPlaces = data.map((author, i) => {
+    let birthPlaces = authors.map((author, i) => {
       if (!author.language[this.props.lang]) return;
 
       const birthPlace = author.language[this.props.lang].birthPlace;
