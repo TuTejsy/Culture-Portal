@@ -51,6 +51,7 @@
 .page-header__language-select .lang {
   position: relative;
   margin: 0;
+  padding: 2px;
   margin-right: 10px;
   font-size: 15px;
   line-height: 15px;
