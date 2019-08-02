@@ -3,7 +3,7 @@ import { Timeline, TimelineItem } from "vertical-timeline-component-for-react"
 
 import "./styles/bootstrap.css"
 import "./styles/Author.css"
-import data from "../data/data"
+import * as data from "../data/data.json"
 import MapWidget from '../components/MapWidget';
 
 const language = "ru"

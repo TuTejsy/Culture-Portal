@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 
 import './styles/Search.css';
-import AuthorPreview from '../components/AuthorPreview'
+import AuthorPriview from '../components/AuthorPreview'
 import * as data from '../data/data.json'
 
 export default class Search extends Component {
@@ -44,20 +44,32 @@ export default class Search extends Component {
   }
 
   render() {
+    const authors = data.authors;
+    const {birthPlace, inputValue} = this.state;
+
+    const authorPreviews = authors.map((item, i) => {
+      if (
+        (inputValue 
+        && !item.language[this.props.lang].name.toLowerCase().includes(inputValue.toLowerCase()))
+        || (birthPlace !== ''
+        && item.language[this.props.lang].birthPlace !== birthPlace)) {
+          return;
+        };
+        
+      return (<AuthorPriview author={item} lang={this.props.lang || 'ru'} key={i} />)
+    }
+    );
+
     return (
       <>
-        {/*<div className="search-container">
+        <div className="search-container">
           <input type="text" className="search-input" onChange={this.handleInputChange} />
           <select name="author-birthPlace" id="author-birthPlace" onChange={this.handleBirthPlaceChange}>
             <option value=""></option>
             {this.renderBirthPlaces()}
           </select>
-        </div>*/}
-        <h1>{this.state.inputValue}</h1>
-        <AuthorPreview lang={this.props.lang} />
-        <Author />
-        <h1>{this.state.birthPlace}</h1>
-        <p>Welcome to page 2</p>
+        </div>
+        {authorPreviews}
       </>
     )
   }
