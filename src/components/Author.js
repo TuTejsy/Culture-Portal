@@ -60,7 +60,8 @@ const Author = ({ author, lang }) => {
       <BasicInfo author={author} lang={lang}></BasicInfo>
       <AuthorTimeLine author={author} lang={lang}></AuthorTimeLine>
       <Works author={author} lang={lang}></Works>
-      <MapWidget author={author} />
+      <MapWidget id="myMap" author={author} />
+
       {/* <galleryComponent></galleryComponent>  */}
       <VideoComponent videoId={author}></VideoComponent>
     </div>
