@@ -1,4 +1,4 @@
-import React, { Component, createRef } from "react"
+import React from "react"
 
 export default class MapWidget extends React.Component {
   constructor(props) {
