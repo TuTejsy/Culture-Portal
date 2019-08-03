@@ -12,8 +12,8 @@ import { useStaticQuery, graphql } from "gatsby"
 import Header from "./Header"
 import "./styles/Layout.css"
 
-const Layout = ({ children }) => {
-  const [lang, setLang] = useState('ru');
+const Layout = ({ children, language, author }) => {
+  const [lang, setLang] = useState(language || 'ru');
 
   const data = useStaticQuery(graphql`
     query SiteTitleQuery {
@@ -25,7 +25,7 @@ const Layout = ({ children }) => {
     }
   `)
 
-  const newChildren = children.map(child => React.cloneElement(child, { lang, setLang }));
+  const newChildren = React.Children.map(children, child => (React.cloneElement(child, { lang, setLang, author })));
 
   return (
     <>
@@ -40,9 +40,7 @@ const Layout = ({ children }) => {
       >
         <main>{newChildren}</main>
         <footer>
-          © {new Date().getFullYear()}, Built with
-          {` `}
-          <a href="https://www.gatsbyjs.org">Gatsby</a>
+         
         </footer>
       </div>
     </>
