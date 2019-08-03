@@ -1,4 +1,4 @@
-export default studentsData = [
+export const studentData = [
   {
     name: 'Vasili Hryb',
     photo: '',
@@ -41,4 +41,4 @@ export default studentsData = [
     work: 'Photo gallery widget',
     github: 'https://github.com/vladmeleshko'
   }
-]
+];
