@@ -9,12 +9,12 @@ export default class MapWidget extends React.Component {
   onScriptLoad() {
     const map = new window.google.maps.Map(
       document.getElementById(this.props.id),
-      { zoom: 12,
+      { zoom: 10,
         center: {
-          lat: 53.914643,
-          lng: 27.584608,
+          lat: +this.props.author.mapInfo[0].latitude,
+          lng: +this.props.author.mapInfo[0].longitude,
         }});
-    this.props.onMapLoad(map)
+    this.renderMarkers(map);
   }
 
   componentDidMount() {
@@ -27,9 +27,28 @@ export default class MapWidget extends React.Component {
     })
   }
 
+  renderMarkers(gMap){
+    this.props.author.mapInfo.map((coords) => {
+      const marker = new window.google.maps.Marker({
+        position: { lat: +coords.latitude, lng: +coords.longitude },
+        map: gMap,
+        title: coords.point,
+        zIndex: +coords.zIndex
+      });
+    })
+  }
+
   render() {
     return (
       <div style={{ width: '100%', height: '480px' }} id={this.props.id} />
     );
   }
 }
+/*
+onMapLoad={map => {
+  const marker = new window.google.maps.Marker({
+    position: { lat: 41.0082, lng: 28.9784 },
+    map: map,
+    title: 'Hello Istanbul!'
+  });
+}}*/

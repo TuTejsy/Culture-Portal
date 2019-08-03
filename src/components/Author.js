@@ -60,16 +60,7 @@ const Author = ({ author, lang }) => {
       <BasicInfo author={author} lang={lang}></BasicInfo>
       <AuthorTimeLine author={author} lang={lang}></AuthorTimeLine>
       <Works author={author} lang={lang}></Works>
-      <MapWidget
-        id="myMap"
-        onMapLoad={map => {
-          const marker = new window.google.maps.Marker({
-            position: { lat: 41.0082, lng: 28.9784 },
-            map: map,
-            title: 'Hello Istanbul!'
-          });
-        }}
-      />
+      <MapWidget id="myMap" author={author} />
 
       {/* <galleryComponent></galleryComponent>  */}
       <VideoComponent videoId={author}></VideoComponent>
