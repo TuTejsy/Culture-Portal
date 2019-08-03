@@ -11,7 +11,6 @@ const IndexPage = ({ lang }) => (
      <div class="main-container">
       <div class="buttons">
           <a class="to-authors-list" href="#"> К списку авторов </a>
-          
         </div>
         <div class="main-page-text">
           <p>Самобытная художественная культура Беларуси формировалась на протяжении столетий. 
