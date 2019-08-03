@@ -53,3 +53,91 @@ p {
 .buttons a:hover {
     background: #6F94A0;
 }
+.author-of-the-day {
+    display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: stretch;
+    align-content: center;
+    margin: 5vh auto;
+    width: 30vw;
+    height: 20vh;
+    font-size: 3vh;
+    color: white;
+    border: 1px solid #6F94A0;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+    background: #6F94A0;
+    flex: 1;
+}
+
+.author-frame {
+    display: flex;
+    flex: 3;
+    border: 1px solid #6F94A0;
+}
+
+.author-photo {
+    display: flex;
+    flex: 1;
+}
+
+.author-description {
+    display: flex;
+    flex: 4;
+}
+
+.developers {
+    margin: 5vh 0 10vh 0;
+    display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+    align-content: center;
+}
+
+.dev-card {
+    display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	align-items: stretch;
+    align-content: stretch;
+    border: 1px solid #8474A3;
+    width: 10vw;
+    height: 30vh;
+}
+
+.dev-name {
+    padding: 1vh 0 1vh 0;
+    margin-bottom: 0;
+    text-indent: 0;
+    text-align: center;
+    font-size: 3vh;
+    background: #8474A3;
+    color: white;
+}
+
+.dev-photo {
+    background: #C5CAE9;
+    height: 15vh;
+}
+
+.developers a {
+    padding-top: 3vh;
+    font-size: 2vh;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+
+.developers a:hover {
+    color: #8474A3;
+}

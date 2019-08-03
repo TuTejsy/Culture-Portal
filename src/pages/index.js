@@ -24,6 +24,53 @@ const IndexPage = ({ lang }) => (
               Здесь учитываются писатели, которые проживали на территории Беларусь и занимались 
               своим творчеством на протяжении долгих лет.</p>
         </div>
+        <div class="author-of-the-day">
+          <div class="title">Автор дня</div>
+          <div class="author-frame">
+            <div class="author-photo"> </div>
+            <div class="author-description">
+              <h3></h3>
+              <p></p>
+            </div>
+          </div>
+        </div>
+        <div class="developers">
+          <div class="dev-card">
+            <p class="dev-name">Vasil</p> 
+            <div class="dev-photo"></div>     
+            <a class="github-id" href="https://github.com/TuTejsy">TuTejsy</a>
+          </div>
+           <div class="dev-card">
+            <p class="dev-name">Katya</p>
+            <div class="dev-photo"></div>             
+            <a class="github-id"></a>
+          </div>
+          <div class="dev-card">
+            <p class="dev-name">Natalya</p> 
+            <div class="dev-photo"></div>           
+            <a class="github-id" href="https://github.com/NatalyaApasova">NatalyaApasova</a>
+          </div>
+          <div class="dev-card">
+            <p class="dev-name">Vlad</p>
+            <div class="dev-photo"></div>           
+            <a class="github-id" href=""></a>
+          </div>
+          <div class="dev-card">
+            <p class="dev-name">Anton</p>
+            <div class="dev-photo"></div>            
+            <a class="github-id" href="https://github.com/Zamtakaish">Zamtakaish</a>
+          </div>
+          <div class="dev-card">
+            <p class="dev-name">Lidiya</p>
+            <div class="dev-photo"></div>            
+            <a class="github-id" href="https://github.com/505Flamingo">505Flamingo</a>
+            </div>
+          <div class="dev-card">
+            <p class="dev-name">Andrew</p>
+            <div class="dev-photo"></div>
+            <a class="github-id" href=""></a>
+          </div> 
+        </div>
     </div>
   </Layout>
 )
