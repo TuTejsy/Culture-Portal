@@ -85,7 +85,7 @@ li {
     transition: transform .6s ease-in-out,-webkit-transform .6s ease-in-out;
 }
 
-.carousel-item.active {
+.carousel-item.active-photo {
     display: block;
 }
 
