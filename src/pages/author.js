@@ -1,15 +1,14 @@
 import React from "react"
-// import { Link } from "gatsby"
 
 import Layout from "../components/Layout"
 import SEO from "../components/Seo"
 import Author from "../components/Author"
 
 
-function authorPage() {
+function authorPage({ location }) {
   return(
-  <Layout>
-    <SEO title="Main"/>
+  <Layout language={location.state.lang} author={location.state.author}>
+    <SEO title={location.state.author.language['en'].name}/>
     <Author></Author>
   </Layout>
   )

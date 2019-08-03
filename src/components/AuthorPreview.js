@@ -1,7 +1,7 @@
 import React from "react"
-// import { Link } from "gatsby"
+import { Link } from "gatsby"
 
-//import './styles/bootstrap.css';
+// import './styles/bootstrap.css';
 // import './styles/AuthorPreview.css';
 
 const AuthorPriview = ({lang, author}) => {
@@ -25,7 +25,6 @@ const AuthorPriview = ({lang, author}) => {
      buttonDescription = 'Перейти';
       break;
   }
-
   return (
     <div className='author-preview' style={{width: '18rem',}}>
       <img src={author.photo} className='author-preview-img-top' alt={author.language[lang].name} />
@@ -33,7 +32,7 @@ const AuthorPriview = ({lang, author}) => {
       <h5 className='author-preview-title'>{author.language[lang].name}</h5>
       <p className='author-preview-text'>{author.language[lang].date}</p>
       <p className='author-preview-text'>{author.language[lang].summary}</p>
-      <a href='#' className='btn btn-primary'>{buttonDescription}</a>
+      <Link to="/author" state={{ lang, author }} className='btn btn-primary'>{buttonDescription}</Link>
       </div>
     </div>
     )

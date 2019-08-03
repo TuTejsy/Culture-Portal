@@ -3,13 +3,9 @@ import { Timeline, TimelineItem } from "vertical-timeline-component-for-react"
 
 import "./styles/bootstrap.css"
 import "./styles/Author.css"
-import * as data from "../data/data.json"
-import MapWidget from '../components/MapWidget';
+import MapWidget from "../components/MapWidget"
 
-const language = "ru"
-
-function BasicInfo({author}) {
-  console.log(author.photo);
+function BasicInfo({ author, lang }) {
   return (
     <div className="d-flex flex-column flex-md-row">
       <img
@@ -19,10 +15,8 @@ function BasicInfo({author}) {
         width="200px"
       ></img>
       <div className="">
-        <h1>{author.language[language].name}</h1>
-        <h5>
-          {author.language[language].birthPlace}
-        </h5>
+        <h1>{author.language[lang].name}</h1>
+        <h5>{author.language[lang].birthPlace}</h5>
       </div>
     </div>
   )
@@ -42,54 +36,35 @@ function VideoComponent({ videoId }) {
   )
 }
 
-function createWorksRow(author, number){
-  return(
-    <tr key={number}>
+function createWorksRow(author) {
+  return (
+    <tr>
       <td>{author.date}</td>
       <td>{author.title}</td>
     </tr>
   )
 }
 
-function Works(props) {
-  const Masterpiece = props.author.language[language].info.works;
+function Works({ author, lang }) {
+  const Masterpiece = author.language[lang].info.worksList
   return (
     <table className="table table-striped table-bordered table-hover">
-      <tbody className="">
-        {Masterpiece.map(createWorksRow)}
-      </tbody>
+      <tbody className="">{Masterpiece.map(createWorksRow)}</tbody>
     </table>
   )
 }
 
-class Author extends React.Component {
-  constructor(props) {
-    super(props)
-    this.state = {
-      authors: [data],
-    }
-  }
-
-  // async componentDidMount() {
-  //   const response = await fetch(`https://rawcdn.githack.com/TuTejsy/Culture-Portal/489e0a33295b2a2dc1a1245c2c99cf4c4eb75c57/src/data/data.json`);
-  //   const json = await response.json();
-  //   this.setState({authors: json.authors});
-  // }
-
-  render() {
-    const authorNumber = 0
-    const currentAuthor = this.state.authors[authorNumber]
-    return (
-      <div className="container w-75 mt-5">
-        <BasicInfo author={currentAuthor}></BasicInfo>
-        <AuthorTimeLine author={currentAuthor}></AuthorTimeLine>
-        <Works author={currentAuthor}></Works>
-        <MapWidget author={currentAuthor} />
-        {/* <galleryComponent></galleryComponent>  */}
-        <VideoComponent videoId={currentAuthor.video}></VideoComponent>
-      </div>
-    )
-  }
+const Author = ({ author, lang }) => {
+  return (
+    <div className="container w-75 mt-5">
+      <BasicInfo author={author} lang={lang}></BasicInfo>
+      <AuthorTimeLine author={author} lang={lang}></AuthorTimeLine>
+      <Works author={author} lang={lang}></Works>
+      <MapWidget author={author} />
+      {/* <galleryComponent></galleryComponent>  */}
+      <VideoComponent videoId={author}></VideoComponent>
+    </div>
+  )
 }
 
 export default Author
@@ -112,10 +87,10 @@ function CreateTimelineItem(props, number) {
   )
 }
 
-function AuthorTimeLine(props) {
+function AuthorTimeLine({ author, lang }) {
   return (
     <Timeline lineColor={"#ddd"}>
-      {props.author.language[language].info.timeline.map(CreateTimelineItem)}
+      {author.language[lang].info.timeline.map(CreateTimelineItem)}
     </Timeline>
   )
 }

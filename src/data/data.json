@@ -1,9 +1,20 @@
 {
   "authors": [
     {
-      "photo": "../images/korotkevich.jpg",
+      "photo": "https://raw.githubusercontent.com/TuTejsy/Culture-Portal/master/src/images/korotkevich.jpg",
       "video": "k8RQqc2Jocg",
-      "gallery": ["../images/korotkevich/1.jpg", "../images/korotkevich/2.jpg", "../images/korotkevich/3.jpg", "../images/korotkevich/4.jpg", "../images/korotkevich/5.jpg", "../images/korotkevich/6.jpg", "../images/korotkevich/7.jpg", "../images/korotkevich/8.jpg", "../images/korotkevich/9.jpg", "../images/korotkevich/10.jpg"],
+      "gallery": [
+        "../images/korotkevich/1.jpg",
+        "../images/korotkevich/2.jpg",
+        "../images/korotkevich/3.jpg",
+        "../images/korotkevich/4.jpg",
+        "../images/korotkevich/5.jpg",
+        "../images/korotkevich/6.jpg",
+        "../images/korotkevich/7.jpg",
+        "../images/korotkevich/8.jpg",
+        "../images/korotkevich/9.jpg",
+        "../images/korotkevich/10.jpg"
+      ],
       "mapInfo": [
         {
           "point": "Orsha, place of birth",
@@ -137,7 +148,7 @@
                 "text": "Was sick and died soon."
               }
             ],
-          "worksList": [
+            "worksList": [
               {
                 "title": "King Stakh's Wild Hunt",
                 "date": "1958, published in 1964"
@@ -234,7 +245,18 @@
     {
       "photo": "../images/alexievich.jpg",
       "video": "fTQXe-lX59M",
-      "gallery": ["../images/alexievich/1.jpg", "../images/alexievich/2.jpg", "../images/alexievich/3.jpg", "../images/alexievich/4.jpg", "../images/alexievich/5.jpg", "../images/alexievich/6.jpg", "../images/alexievich/7.jpg", "../images/alexievich/8.jpg", "../images/alexievich/9.jpg", "../images/alexievich/10.jpg"],
+      "gallery": [
+        "../images/alexievich/1.jpg",
+        "../images/alexievich/2.jpg",
+        "../images/alexievich/3.jpg",
+        "../images/alexievich/4.jpg",
+        "../images/alexievich/5.jpg",
+        "../images/alexievich/6.jpg",
+        "../images/alexievich/7.jpg",
+        "../images/alexievich/8.jpg",
+        "../images/alexievich/9.jpg",
+        "../images/alexievich/10.jpg"
+      ],
       "mapInfo": [
         {
           "point": "Ivano-Frankovsk, place of birth",
@@ -475,7 +497,18 @@
     {
       "photo": "../images/bykov.jpg",
       "video": "WMZxWOejw_A",
-      "gallery": ["../images/bykov/1.jpg", "../images/bykov/2.jpg", "../images/bykov/3.jpg", "../images/bykov/4.jpg", "../images/bykov/5.jpg", "../images/bykov/6.jpg", "../images/bykov/7.jpg", "../images/bykov/8.jpg", "../images/bykov/9.jpg", "../images/bykov/10.jpg"],
+      "gallery": [
+        "../images/bykov/1.jpg",
+        "../images/bykov/2.jpg",
+        "../images/bykov/3.jpg",
+        "../images/bykov/4.jpg",
+        "../images/bykov/5.jpg",
+        "../images/bykov/6.jpg",
+        "../images/bykov/7.jpg",
+        "../images/bykov/8.jpg",
+        "../images/bykov/9.jpg",
+        "../images/bykov/10.jpg"
+      ],
       "mapInfo": [
         {
           "point": "Bychki, place of birth; Bykov's museum",
@@ -814,11 +847,22 @@
     {
       "photo": "../images/shamiakin.jpg",
       "video": "YcJGh_11rmY",
-      "gallery": ["../images/shamiakin/1.jpg", "../images/shamiakin/2.png", "../images/shamiakin/3.jpg", "../images/shamiakin/4.jpg", "../images/shamiakin/5.jpg", "../images/shamiakin/6.jpg", "../images/shamiakin/7.jpg", "../images/shamiakin/8.jpg", "../images/shamiakin/9.jpg", "../images/shamiakin/10.jpg"],
+      "gallery": [
+        "../images/shamiakin/1.jpg",
+        "../images/shamiakin/2.png",
+        "../images/shamiakin/3.jpg",
+        "../images/shamiakin/4.jpg",
+        "../images/shamiakin/5.jpg",
+        "../images/shamiakin/6.jpg",
+        "../images/shamiakin/7.jpg",
+        "../images/shamiakin/8.jpg",
+        "../images/shamiakin/9.jpg",
+        "../images/shamiakin/10.jpg"
+      ],
       "mapInfo": [
         {
           "point": "Korma, place of birth",
-          "longitude": "53.128672", 
+          "longitude": "53.128672",
           "latitude": "30.804318",
           "zIndex": "1"
         },
@@ -1071,7 +1115,18 @@
     {
       "photo": "../images/adamovich.jpg",
       "video": "v7P1Jc1KYvk",
-      "gallery": ["../images/adamovich/1.jpg", "../images/adamovich/2.jpg", "../images/adamovich/3.jpg", "../images/adamovich/4.jpg", "../images/adamovich/5.jpg", "../images/adamovich/6.jpg", "../images/adamovich/7.jpg", "../images/adamovich/8.jpg", "../images/adamovich/9.jpg", "../images/adamovich/10.jpg"],
+      "gallery": [
+        "../images/adamovich/1.jpg",
+        "../images/adamovich/2.jpg",
+        "../images/adamovich/3.jpg",
+        "../images/adamovich/4.jpg",
+        "../images/adamovich/5.jpg",
+        "../images/adamovich/6.jpg",
+        "../images/adamovich/7.jpg",
+        "../images/adamovich/8.jpg",
+        "../images/adamovich/9.jpg",
+        "../images/adamovich/10.jpg"
+      ],
       "mapInfo": [
         {
           "point": "Koniuhi, place of birth",
