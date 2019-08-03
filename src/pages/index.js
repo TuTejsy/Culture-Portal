@@ -8,7 +8,7 @@ import "../pages/styles.css"
 
 const IndexPage = ({ lang }) => (
   <Layout>
-    <div class="main-container">
+     <div class="main-container">
       <div class="buttons">
           <a class="to-authors-list" href="#"> К списку авторов </a>
           
@@ -24,16 +24,6 @@ const IndexPage = ({ lang }) => (
             <p>Список авторов, которые в данную минуту находятся на нашем сервере (5 человек). 
               Здесь учитываются писатели, которые проживали на территории Беларусь и занимались 
               своим творчеством на протяжении долгих лет.</p>
-        </div>
-        <div class="author-of-the-day">
-          <div class="title">Автор дня</div>
-          <div class="author-frame">
-            <div class="author-photo"> </div>
-            <div class="author-description">
-              <h3></h3>
-              <p></p>
-            </div>
-          </div>
         </div>
     </div>
   </Layout>
