@@ -4,6 +4,7 @@ import React from 'react'
 import Image from "./Image"
 import StudentCards from './StudentCards';
 import AuthorOtD from "./AuthorOtD"
+import StudentsTitle from "./StudentsTitle"
 
 const Main = ({ lang }) => (
   <>
@@ -15,6 +16,7 @@ const Main = ({ lang }) => (
     </div>
     <Link to="/search/" state={{ lang }}>Go to page 2</Link>
     <AuthorOtD lang={lang}/>
+    <StudentsTitle lang={lang} />
     <StudentCards />
   </>
 )

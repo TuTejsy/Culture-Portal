@@ -10036,6 +10036,19 @@ a.text-dark:hover, a.text-dark:focus {
   }
 }
 
+
+.students{
+  margin-top: 90px;
+  width: 100%;
+  background-color: #8474A3;
+}
+.students__title{
+  width: 100%;
+  margin: 0;
+  padding: 2% 5%;
+  color: white;
+}
+
 .student-card_container{
   width: 100%;
   height: 300px;
