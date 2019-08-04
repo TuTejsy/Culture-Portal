@@ -48,14 +48,16 @@ const AuthorOtD = ({ lang }) => {
   return (
     <div className="author-of-the-day__container">
       <h2 className="author-of-the-day__title">{title}</h2>
-      <div className="author-of-the-day">
+      <div className="author-of-the-day__info">
+        <div className="author-of-the-day">
         <img
           src={author.photo}
           alt="Фото автора"
           className="author-of-the-day__photo"
-          width="100px"
+          width="100%"
         ></img>
-        <div className="author-of-the-day__info">
+        </div>
+        <div>
           <h2 className="author-of-the-day__info__name">{author.language[lang].name}</h2>
           <h5 className="author-of-the-day__info__date">{author.language[lang].date}</h5>
           <p className="author-of-the-day__info__summary">{author.language[lang].summary}</p>

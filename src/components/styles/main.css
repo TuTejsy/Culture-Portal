@@ -16,3 +16,42 @@
   justify-content: center;
   height: auto;
 }
+
+.author-of-the-day__container {
+  display: flex;
+  height: auto;
+}
+
+.author-of-the-day__info {
+  display: flex;
+  flex-direction: row;
+}
+
+.author-of-the-day__photo {
+  border: 3px solid #000;
+  margin-right: 20px;
+}
+
+@media screen and (max-width: 860px) {
+  .author-of-the-day__info {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .author-of-the-day__photo {
+    display: flex;
+    border: 3px solid #000;
+    margin: 10px;
+    width: 30%;
+    height: 30%;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .author-of-the-day__photo {
+    border: 3px solid #000;
+    margin-right: 20px; 
+    width: 100%;
+    height: 100%;
+  }
+}
