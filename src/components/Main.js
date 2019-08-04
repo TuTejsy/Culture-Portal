@@ -5,6 +5,8 @@ import Image from "./Image"
 import StudentCards from './StudentCards';
 import AuthorOtD from "./AuthorOtD"
 
+import './styles/main.css'
+
 const Main = ({ lang }) => (
   <>
     <h1>{lang}</h1>
