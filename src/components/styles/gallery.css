@@ -1,7 +1,8 @@
 .carousel {
     position: relative;
+    margin-left: 150px;
     max-width: 500px;
-    max-height: 500px;
+    max-height: 700px;
 }
 
 div {
@@ -126,6 +127,7 @@ img {
     text-align: center;
     opacity: .5;
     transition: opacity .15s ease;
+    cursor: pointer;
 }
 
 a {

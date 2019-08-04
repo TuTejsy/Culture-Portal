@@ -4,6 +4,7 @@ import { Timeline, TimelineItem } from "vertical-timeline-component-for-react"
 import "./styles/bootstrap.css"
 import "./styles/Author.css"
 import MapWidget from "../components/MapWidget"
+import Photo from './PhotoGallery'
 
 function BasicInfo({ author, lang }) {
   return (
@@ -60,8 +61,8 @@ const Author = ({ author, lang }) => {
       <BasicInfo author={author} lang={lang}></BasicInfo>
       <AuthorTimeLine author={author} lang={lang}></AuthorTimeLine>
       <Works author={author} lang={lang}></Works>
+      <Photo author={author}/>
       <MapWidget id="myMap" author={author} />
-
       {/* <galleryComponent></galleryComponent>  */}
       <VideoComponent videoId={author}></VideoComponent>
     </div>

@@ -5,12 +5,22 @@ import data from '../data/data.json'
 import './styles/gallery.css'
 
 class Photos extends React.Component {
+    constructor(props) {
+        super();
+        this.state = {author: props.author};
+    }
 
     prevPhoto = () => {
         let slide = document.querySelector('.active');
         let photo = document.querySelector('.active-photo');
         let slideNum = slide.id;
-        let photoNum = photo.id.slice(5, 6);
+        let photoNum;
+        if (document.getElementById('10').classList.contains('active')) {
+            photoNum = photo.id.slice(5, 7);
+        } else {
+            photoNum = photo.id.slice(5, 6);
+        }
+        console.log(photoNum)
         slide.classList.remove('active');
         photo.classList.remove('active-photo');
         if (slideNum === "1") {
@@ -29,7 +39,7 @@ class Photos extends React.Component {
         let photoNum = photo.id.slice(5, 6);
         slide.classList.remove('active');
         photo.classList.remove('active-photo');
-        if (slideNum === "3") {
+        if (slideNum === "10") {
             document.getElementById('1').classList.add('active');
             document.getElementById('photo1').classList.add('active-photo');
         } else {
@@ -68,40 +78,40 @@ class Photos extends React.Component {
              </ol>
             <div className="carousel-inner">
                 <div className="carousel-item active-photo" id="photo1">
-                    <img src={data.authors[0].photo} className="d-block w-100" alt="..." />
+                    <img src={this.state.author.gallery[0]} className="d-block w-100" alt="..." />
                 </div>
                 <div className="carousel-item" id="photo2">
-                    <img src={data.authors[1].photo} className="d-block w-100" alt="..." />
+                    <img src={this.state.author.gallery[1]} className="d-block w-100" alt="..." />
                 </div>
                 <div className="carousel-item" id="photo3">
-                    <img src={data.authors[2].photo} className="d-block w-100" alt="..." />
+                    <img src={this.state.author.gallery[2]} className="d-block w-100" alt="..." />
                 </div>
                 <div className="carousel-item" id="photo4">
-                    <img src={data.authors[3].photo} className="d-block w-100" alt="..." />
+                    <img src={this.state.author.gallery[3]} className="d-block w-100" alt="..." />
                 </div>
                 <div className="carousel-item" id="photo5">
-                    <img src={data.authors[4].photo} className="d-block w-100" alt="..." />
+                    <img src={this.state.author.gallery[4]} className="d-block w-100" alt="..." />
                 </div>
                 <div className="carousel-item" id="photo6">
-                    <img src={data.authors[2].gallery[5]} className="d-block w-100" alt="..." />
+                    <img src={this.state.author.gallery[5]} className="d-block w-100" alt="..." />
                 </div>
                 <div className="carousel-item" id="photo7">
-                    <img src={data.authors[2].gallery[6]} className="d-block w-100" alt="..." />
+                    <img src={this.state.author.gallery[6]} className="d-block w-100" alt="..." />
                 </div>
                 <div className="carousel-item" id="photo8">
-                    <img src={data.authors[2].gallery[7]} className="d-block w-100" alt="..." />
+                    <img src={this.state.author.gallery[7]} className="d-block w-100" alt="..." />
                 </div>
                 <div className="carousel-item" id="photo9">
-                    <img src={data.authors[2].gallery[8]} className="d-block w-100" alt="..." />
+                    <img src={this.state.author.gallery[8]} className="d-block w-100" alt="..." />
                 </div>
                 <div className="carousel-item" id="photo10">
-                    <img src={data.authors[2].gallery[9]} className="d-block w-100" alt="..." />
+                    <img src={this.state.author.gallery[9]} className="d-block w-100" alt="..." />
                 </div>
             </div>
-            <a className="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev" onClick={this.prevPhoto}>
+            <a className="carousel-control-prev" role="button" data-slide="prev" onClick={this.prevPhoto}>
                 <span className="carousel-control-prev-icon" aria-hidden="true"><i className="fas fa-angle-left"></i></span>
             </a>
-            <a className="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next" onClick={this.nextPhoto}>
+            <a className="carousel-control-next" role="button" data-slide="next" onClick={this.nextPhoto}>
                 <span className="carousel-control-next-icon" aria-hidden="true"><i className="fas fa-angle-right"></i></span>
             </a>
         </div>
