@@ -4,34 +4,34 @@
       "photo": "https://raw.githubusercontent.com/TuTejsy/Culture-Portal/master/src/images/korotkevich.jpg",
       "video": "k8RQqc2Jocg",
       "gallery": [
-        "../images/korotkevich/1.jpg",
-        "../images/korotkevich/2.jpg",
-        "../images/korotkevich/3.jpg",
-        "../images/korotkevich/4.jpg",
-        "../images/korotkevich/5.jpg",
-        "../images/korotkevich/6.jpg",
-        "../images/korotkevich/7.jpg",
-        "../images/korotkevich/8.jpg",
-        "../images/korotkevich/9.jpg",
-        "../images/korotkevich/10.jpg"
+        "https://raw.githubusercontent.com/TuTejsy/Culture-Portal/master/src/images/korotkevich/1.jpg",
+        "https://raw.githubusercontent.com/TuTejsy/Culture-Portal/master/src/images/korotkevich/2.jpg",
+        "https://raw.githubusercontent.com/TuTejsy/Culture-Portal/master/src/images/korotkevich/3.jpg",
+        "https://raw.githubusercontent.com/TuTejsy/Culture-Portal/master/src/images/korotkevich/4.jpg",
+        "https://raw.githubusercontent.com/TuTejsy/Culture-Portal/master/src/images/korotkevich/5.jpg",
+        "https://raw.githubusercontent.com/TuTejsy/Culture-Portal/master/src/images/korotkevich/6.jpg",
+        "https://raw.githubusercontent.com/TuTejsy/Culture-Portal/master/src/images/korotkevich/7.jpg",
+        "https://raw.githubusercontent.com/TuTejsy/Culture-Portal/master/src/images/korotkevich/8.jpg",
+        "https://raw.githubusercontent.com/TuTejsy/Culture-Portal/master/src/images/korotkevich/9.jpg",
+        "https://raw.githubusercontent.com/TuTejsy/Culture-Portal/master/src/images/korotkevich/10.jpg"
       ],
       "mapInfo": [
         {
           "point": "Orsha, place of birth",
-          "longitude": "54.510741",
-          "latitude": "30.429586",
+          "longitude": "30.429586",
+          "latitude": "54.510741",
           "zIndex": "1"
         },
         {
           "point": "Minsk, first flat",
-          "longitude": "53.926955",
-          "latitude": "27.600450",
+          "longitude": "27.600450",
+          "latitude": "53.926955",
           "zIndex": "2"
         },
         {
           "point": "Minsk, second flat",
-          "longitude": "53.923403",
-          "latitude": "27.551842",
+          "longitude": "27.551842",
+          "latitude": "53.923403",
           "zIndex": "3"
         }
       ],
@@ -243,31 +243,31 @@
       }
     },
     {
-      "photo": "../images/alexievich.jpg",
+      "photo": "https://raw.githubusercontent.com/TuTejsy/Culture-Portal/master/src/images/alexievich.jpg",
       "video": "fTQXe-lX59M",
       "gallery": [
-        "../images/alexievich/1.jpg",
-        "../images/alexievich/2.jpg",
-        "../images/alexievich/3.jpg",
-        "../images/alexievich/4.jpg",
-        "../images/alexievich/5.jpg",
-        "../images/alexievich/6.jpg",
-        "../images/alexievich/7.jpg",
-        "../images/alexievich/8.jpg",
-        "../images/alexievich/9.jpg",
-        "../images/alexievich/10.jpg"
+        "https://raw.githubusercontent.com/TuTejsy/Culture-Portal/master/src/images/alexievich/1.jpg",
+        "https://raw.githubusercontent.com/TuTejsy/Culture-Portal/master/src/images/alexievich/2.jpg",
+        "https://raw.githubusercontent.com/TuTejsy/Culture-Portal/master/src/images/alexievich/3.jpg",
+        "https://raw.githubusercontent.com/TuTejsy/Culture-Portal/master/src/images/alexievich/4.jpg",
+        "https://raw.githubusercontent.com/TuTejsy/Culture-Portal/master/src/images/alexievich/5.jpg",
+        "https://raw.githubusercontent.com/TuTejsy/Culture-Portal/master/src/images/alexievich/6.jpg",
+        "https://raw.githubusercontent.com/TuTejsy/Culture-Portal/master/src/images/alexievich/7.jpg",
+        "https://raw.githubusercontent.com/TuTejsy/Culture-Portal/master/src/images/alexievich/8.jpg",
+        "https://raw.githubusercontent.com/TuTejsy/Culture-Portal/master/src/images/alexievich/9.jpg",
+        "https://raw.githubusercontent.com/TuTejsy/Culture-Portal/master/src/images/alexievich/10.jpg"
       ],
       "mapInfo": [
         {
           "point": "Ivano-Frankovsk, place of birth",
-          "longitude": "48.922629",
-          "latitude": "24.711108",
+          "longitude": "24.711108",
+          "latitude": "48.922629",
           "zIndex": "1"
         },
         {
           "point": "Berioza, first flat",
-          "longitude": "52.534603",
-          "latitude": "24.984475",
+          "longitude": "24.984475",
+          "latitude": "52.534603",
           "zIndex": "2"
         }
       ],
@@ -495,49 +495,49 @@
       }
     },
     {
-      "photo": "../images/bykov.jpg",
+      "photo": "https://raw.githubusercontent.com/TuTejsy/Culture-Portal/master/src/images/bykov.jpg",
       "video": "WMZxWOejw_A",
       "gallery": [
-        "../images/bykov/1.jpg",
-        "../images/bykov/2.jpg",
-        "../images/bykov/3.jpg",
-        "../images/bykov/4.jpg",
-        "../images/bykov/5.jpg",
-        "../images/bykov/6.jpg",
-        "../images/bykov/7.jpg",
-        "../images/bykov/8.jpg",
-        "../images/bykov/9.jpg",
-        "../images/bykov/10.jpg"
+        "https://raw.githubusercontent.com/TuTejsy/Culture-Portal/master/src/images/bykov/1.jpg",
+        "https://raw.githubusercontent.com/TuTejsy/Culture-Portal/master/src/images/bykov/2.jpg",
+        "https://raw.githubusercontent.com/TuTejsy/Culture-Portal/master/src/images/bykov/3.jpg",
+        "https://raw.githubusercontent.com/TuTejsy/Culture-Portal/master/src/images/bykov/4.jpg",
+        "https://raw.githubusercontent.com/TuTejsy/Culture-Portal/master/src/images/bykov/5.jpg",
+        "https://raw.githubusercontent.com/TuTejsy/Culture-Portal/master/src/images/bykov/6.jpg",
+        "https://raw.githubusercontent.com/TuTejsy/Culture-Portal/master/src/images/bykov/7.jpg",
+        "https://raw.githubusercontent.com/TuTejsy/Culture-Portal/master/src/images/bykov/8.jpg",
+        "https://raw.githubusercontent.com/TuTejsy/Culture-Portal/master/src/images/bykov/9.jpg",
+        "https://raw.githubusercontent.com/TuTejsy/Culture-Portal/master/src/images/bykov/10.jpg"
       ],
       "mapInfo": [
         {
           "point": "Bychki, place of birth; Bykov's museum",
-          "longitude": "55.165832",
-          "latitude": "28.379720",
+          "longitude": "28.379720",
+          "latitude": "55.165832",
           "zIndex": "1"
         },
         {
           "point": "Vitebsk Art School, place of education",
-          "longitude": "55.188540",
-          "latitude": "30.202797",
+          "longitude": "30.202797",
+          "latitude": "55.188540",
           "zIndex": "2"
         },
         {
           "point": "Grodno, Trojetskaja str., first flat",
-          "longitude": "53.680772",
-          "latitude": "23.828415",
+          "longitude": "23.828415",
+          "latitude": "53.680772",
           "zIndex": "3"
         },
         {
           "point": "Grodno, Sverdlova str., second flat",
-          "longitude": "53.675530",
-          "latitude": "23.834595",
+          "longitude": "23.834595",
+          "latitude": "53.675530",
           "zIndex": "4"
         },
         {
           "point": "Grodno, Parizhskai Kommuny str., third flat",
-          "longitude": "53.673865",
-          "latitude": "23.835377",
+          "longitude": "23.835377",
+          "latitude": "53.673865",
           "zIndex": "5"
         }
       ],
@@ -845,31 +845,31 @@
       }
     },
     {
-      "photo": "../images/shamiakin.jpg",
+      "photo": "https://raw.githubusercontent.com/TuTejsy/Culture-Portal/master/src/images/shamiakin.jpg",
       "video": "YcJGh_11rmY",
       "gallery": [
-        "../images/shamiakin/1.jpg",
-        "../images/shamiakin/2.png",
-        "../images/shamiakin/3.jpg",
-        "../images/shamiakin/4.jpg",
-        "../images/shamiakin/5.jpg",
-        "../images/shamiakin/6.jpg",
-        "../images/shamiakin/7.jpg",
-        "../images/shamiakin/8.jpg",
-        "../images/shamiakin/9.jpg",
-        "../images/shamiakin/10.jpg"
+        "https://raw.githubusercontent.com/TuTejsy/Culture-Portal/master/src/images/shamiakin/1.jpg",
+        "https://raw.githubusercontent.com/TuTejsy/Culture-Portal/master/src/images/shamiakin/2.png",
+        "https://raw.githubusercontent.com/TuTejsy/Culture-Portal/master/src/images/shamiakin/3.jpg",
+        "https://raw.githubusercontent.com/TuTejsy/Culture-Portal/master/src/images/shamiakin/4.jpg",
+        "https://raw.githubusercontent.com/TuTejsy/Culture-Portal/master/src/images/shamiakin/5.jpg",
+        "https://raw.githubusercontent.com/TuTejsy/Culture-Portal/master/src/images/shamiakin/6.jpg",
+        "https://raw.githubusercontent.com/TuTejsy/Culture-Portal/master/src/images/shamiakin/7.jpg",
+        "https://raw.githubusercontent.com/TuTejsy/Culture-Portal/master/src/images/shamiakin/8.jpg",
+        "https://raw.githubusercontent.com/TuTejsy/Culture-Portal/master/src/images/shamiakin/9.jpg",
+        "https://raw.githubusercontent.com/TuTejsy/Culture-Portal/master/src/images/shamiakin/10.jpg"
       ],
       "mapInfo": [
         {
           "point": "Korma, place of birth",
-          "longitude": "53.128672",
-          "latitude": "30.804318",
+          "longitude": "30.804318",
+          "latitude": "53.128672",
           "zIndex": "1"
         },
         {
           "point": "Minsk, East Cemetery, Burial place",
-          "longitude": "53.940350",
-          "latitude": "27.660655",
+          "longitude": "27.660655",
+          "latitude": "53.940350",
           "zIndex": "2"
         }
       ],
@@ -1113,37 +1113,37 @@
       }
     },
     {
-      "photo": "../images/adamovich.jpg",
+      "photo": "https://raw.githubusercontent.com/TuTejsy/Culture-Portal/master/src/images/adamovich.jpg",
       "video": "v7P1Jc1KYvk",
       "gallery": [
-        "../images/adamovich/1.jpg",
-        "../images/adamovich/2.jpg",
-        "../images/adamovich/3.jpg",
-        "../images/adamovich/4.jpg",
-        "../images/adamovich/5.jpg",
-        "../images/adamovich/6.jpg",
-        "../images/adamovich/7.jpg",
-        "../images/adamovich/8.jpg",
-        "../images/adamovich/9.jpg",
-        "../images/adamovich/10.jpg"
+        "https://raw.githubusercontent.com/TuTejsy/Culture-Portal/master/src/images/adamovich/1.jpg",
+        "https://raw.githubusercontent.com/TuTejsy/Culture-Portal/master/src/images/adamovich/2.jpg",
+        "https://raw.githubusercontent.com/TuTejsy/Culture-Portal/master/src/images/adamovich/3.jpg",
+        "https://raw.githubusercontent.com/TuTejsy/Culture-Portal/master/src/images/adamovich/4.jpg",
+        "https://raw.githubusercontent.com/TuTejsy/Culture-Portal/master/src/images/adamovich/5.jpg",
+        "https://raw.githubusercontent.com/TuTejsy/Culture-Portal/master/src/images/adamovich/6.jpg",
+        "https://raw.githubusercontent.com/TuTejsy/Culture-Portal/master/src/images/adamovich/7.jpg",
+        "https://raw.githubusercontent.com/TuTejsy/Culture-Portal/master/src/images/adamovich/8.jpg",
+        "https://raw.githubusercontent.com/TuTejsy/Culture-Portal/master/src/images/adamovich/9.jpg",
+        "https://raw.githubusercontent.com/TuTejsy/Culture-Portal/master/src/images/adamovich/10.jpg"
       ],
       "mapInfo": [
         {
           "point": "Koniuhi, place of birth",
-          "longitude": "53.153153",
-          "latitude": "27.384935",
+          "longitude": "27.384935",
+          "latitude": "53.153153",
           "zIndex": "1"
         },
         {
           "point": "Belorusian State University, place of education and work",
-          "longitude": "53.893848",
-          "latitude": "27.547144",
+          "longitude": "27.547144",
+          "latitude": "53.893848",
           "zIndex": "2"
         },
         {
           "point": "Glusha, Mogilev oblast, burial place",
-          "longitude": "53.087324",
-          "latitude": "28.855971",
+          "longitude": "28.855971",
+          "latitude": "53.087324",
           "zIndex": "3"
         }
       ],
