@@ -17,11 +17,11 @@
 
 *natalyaapasova*
 
-| time spent | feature |
-|-------------|-------------|
-|  |  |
-|  |  |
-|  |  |
+| time spent  | feature                 |
+|-------------|-------------------------|
+| 12          | Content in JSON         |
+| 6h          | Modal window for video  |
+|             |                         |
 
 *505flamingo*
 
