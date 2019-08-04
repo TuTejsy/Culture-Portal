@@ -18,20 +18,20 @@
       "mapInfo": [
         {
           "point": "Orsha, place of birth",
-          "longitude": "54.510741",
-          "latitude": "30.429586",
+          "longitude": "30.429586",
+          "latitude": "54.510741",
           "zIndex": "1"
         },
         {
           "point": "Minsk, first flat",
-          "longitude": "53.926955",
-          "latitude": "27.600450",
+          "longitude": "27.600450",
+          "latitude": "53.926955",
           "zIndex": "2"
         },
         {
           "point": "Minsk, second flat",
-          "longitude": "53.923403",
-          "latitude": "27.551842",
+          "longitude": "27.551842",
+          "latitude": "53.923403",
           "zIndex": "3"
         }
       ],
@@ -260,14 +260,14 @@
       "mapInfo": [
         {
           "point": "Ivano-Frankovsk, place of birth",
-          "longitude": "48.922629",
-          "latitude": "24.711108",
+          "longitude": "24.711108",
+          "latitude": "48.922629",
           "zIndex": "1"
         },
         {
           "point": "Berioza, first flat",
-          "longitude": "52.534603",
-          "latitude": "24.984475",
+          "longitude": "24.984475",
+          "latitude": "52.534603",
           "zIndex": "2"
         }
       ],
@@ -512,32 +512,32 @@
       "mapInfo": [
         {
           "point": "Bychki, place of birth; Bykov's museum",
-          "longitude": "55.165832",
-          "latitude": "28.379720",
+          "longitude": "28.379720",
+          "latitude": "55.165832",
           "zIndex": "1"
         },
         {
           "point": "Vitebsk Art School, place of education",
-          "longitude": "55.188540",
-          "latitude": "30.202797",
+          "longitude": "30.202797",
+          "latitude": "55.188540",
           "zIndex": "2"
         },
         {
           "point": "Grodno, Trojetskaja str., first flat",
-          "longitude": "53.680772",
-          "latitude": "23.828415",
+          "longitude": "23.828415",
+          "latitude": "53.680772",
           "zIndex": "3"
         },
         {
           "point": "Grodno, Sverdlova str., second flat",
-          "longitude": "53.675530",
-          "latitude": "23.834595",
+          "longitude": "23.834595",
+          "latitude": "53.675530",
           "zIndex": "4"
         },
         {
           "point": "Grodno, Parizhskai Kommuny str., third flat",
-          "longitude": "53.673865",
-          "latitude": "23.835377",
+          "longitude": "23.835377",
+          "latitude": "53.673865",
           "zIndex": "5"
         }
       ],
@@ -862,14 +862,14 @@
       "mapInfo": [
         {
           "point": "Korma, place of birth",
-          "longitude": "53.128672",
-          "latitude": "30.804318",
+          "longitude": "30.804318",
+          "latitude": "53.128672",
           "zIndex": "1"
         },
         {
           "point": "Minsk, East Cemetery, Burial place",
-          "longitude": "53.940350",
-          "latitude": "27.660655",
+          "longitude": "27.660655",
+          "latitude": "53.940350",
           "zIndex": "2"
         }
       ],
@@ -1130,20 +1130,20 @@
       "mapInfo": [
         {
           "point": "Koniuhi, place of birth",
-          "longitude": "53.153153",
-          "latitude": "27.384935",
+          "longitude": "27.384935",
+          "latitude": "53.153153",
           "zIndex": "1"
         },
         {
           "point": "Belorusian State University, place of education and work",
-          "longitude": "53.893848",
-          "latitude": "27.547144",
+          "longitude": "27.547144",
+          "latitude": "53.893848",
           "zIndex": "2"
         },
         {
           "point": "Glusha, Mogilev oblast, burial place",
-          "longitude": "53.087324",
-          "latitude": "28.855971",
+          "longitude": "28.855971",
+          "latitude": "53.087324",
           "zIndex": "3"
         }
       ],
