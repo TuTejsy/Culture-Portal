@@ -1,55 +1,56 @@
-_tutejsy_
-
-| time spent | feature                                                          |
-| ---------- | ---------------------------------------------------------------- |
-| 4h         | add project architecture                                         |
-| 20m        | add Author and Search components, create and connect style files |
-| 4h         | add Search widget                                                |
-
-_zamtakaish_
+*tutejsy*
 
 | time spent | feature |
-| ---------- | ------- |
-|            |         |
-|            |         |
-|            |         |
+|-------------|-------------|
+| 4h | add project architecture |
+| 20m | add Author and Search components, create and connect style files |
+|  |  |
 
-_natalyaapasova_
 
-| time spent | feature |
-| ---------- | ------- |
-|            |         |
-|            |         |
-|            |         |
-
-_505flamingo_
+*zamtakaish*
 
 | time spent | feature |
-| ---------- | ------- |
-|            |         |
-|            |         |
-|            |         |
+|-------------|-------------|
+|  |  |
+|  |  |
+|  |  |
 
-_katyyats_
+*natalyaapasova*
 
 | time spent | feature |
-| ---------- | ------- |
-|            |         |
-|            |         |
-|            |         |
+|-------------|-------------|
+|  |  |
+|  |  |
+|  |  |
 
-_qunapi_
+*505flamingo*
+
+| time spent | feature |
+|-------------|-------------|
+| 3h | Main page |
+| 1h | Translation |
+|  |  |
+
+*katyyats*
+
+| time spent | feature |
+|-------------|-------------|
+|  |  |
+|  |  |
+|  |  |
+
+*qunapi*
 
 | time spent | feature            |
-| ---------- | ------------------ |
-| 2h         | Author page layout |
+|------------|--------------------|
+| 2h         | Author page layout | 
 | 2h         | data loading       |
 | 1h         | bootstrap          |
 
-_vladmeleshko_
+*vladmeleshko*
 
 | time spent | feature |
-| ---------- | ------- |
-|            |         |
-|            |         |
-|            |         |
+|-------------|-------------|
+|  |  |
+|  |  |
+|  |  |
