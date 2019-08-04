@@ -10059,7 +10059,7 @@ a.text-dark:hover, a.text-dark:focus {
 .student-card__info__work{
   font-size: 12px;
 }
-.student-card__contacts{
+.student-card__contacts_link{
   align-self: flex-end;
   padding: 5%;
   margin-top: auto;
