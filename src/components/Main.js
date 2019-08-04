@@ -3,7 +3,9 @@ import React from "react"
 
 import StudentCards from "./StudentCards"
 import AuthorOtD from "./AuthorOtD"
+import StudentsTitle from "./StudentsTitle"
 import "./styles/Main.css"
+
 
 const Main = ({ lang }) => {
   let text
@@ -95,6 +97,9 @@ const Main = ({ lang }) => {
       <AuthorOtD lang={lang} />
       <StudentCards />
     </div>
+    <AuthorOtD lang={lang}/>
+    <StudentsTitle lang={lang} />
+    <StudentCards />
   )
 }
 
