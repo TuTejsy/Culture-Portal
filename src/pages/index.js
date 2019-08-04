@@ -8,9 +8,7 @@ import Photos from "../components/PhotoGallery"
 const IndexPage = ({ location }) => (
   <Layout language={location.state ? location.state.lang : null}>
     <SEO title="Main" />
-
     <Main />
-
   </Layout>
 )
 

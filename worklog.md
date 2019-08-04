@@ -27,8 +27,8 @@
 
 | time spent | feature |
 |-------------|-------------|
-|  |  |
-|  |  |
+| 3h | Main page |
+| 1h | Translation |
 |  |  |
 
 *katyyats*
