@@ -10060,22 +10060,20 @@ a.text-dark:hover, a.text-dark:focus {
   font-size: 12px;
 }
 .student-card__contacts_link{
-  align-self: flex-end;
-  padding: 5%;
+  width: 30%;
   margin-top: auto;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border: 1px solid black;
-  border-radius: 10px;
-  text-decoration: none;
-  -webkit-transition: 50ms;
+  border: 1px solid transparent;
+  border-radius: 50%;
+  -webkit-transition: 80ms;
+  opacity: 0.5;
 }
-.student-card__contacts:hover{
-  background-color: #2B2635;
-  color: white;
-  -webkit-transform: scale(1.1);
-  -webkit-transition: 50ms;
+.student-card__contacts_link:hover{
+  opacity: 1;
+  -webkit-transform: scale(1.2);
+  -webkit-transition: 80ms;
+}
+.student-card__contacts_link_icon{
+  width: 100%;
 }
 
 .author-of-the-day__container{

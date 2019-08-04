@@ -1,4 +1,5 @@
 import React from "react"
+import ReactSVG from 'react-svg'
 
 import "./styles/bootstrap.css";
 import { studentData } from '../data/studentData';
@@ -7,7 +8,7 @@ function StudentCard({ student }) {
   return (
     <div className="student-card">
       <img
-        src='RandomPic.jpg'
+        src={student.photo}
         alt="Student photo"
         className="student-card__photo"
         width="100%"
@@ -18,11 +19,7 @@ function StudentCard({ student }) {
       </div>
 
         <a className="student-card__contacts_link" href={student.github}>
-          <img
-            src='../src/images/icons/github-icon.svg'
-            alt="github-icon"
-            className="student-card__contacts_link_image"
-          ></img>
+          <ReactSVG src='https://raw.githubusercontent.com/TuTejsy/Culture-Portal/master/src/images/icons/github-icon.svg' className="student-card__contacts_link_icon"/>
         </a>
     </div>
   )
