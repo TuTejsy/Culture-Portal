@@ -86,20 +86,18 @@ const Main = ({ lang }) => {
   }
 
   return (
-    <div className="main-container">
-      <div className="buttons">
-        <a className="to-authors-list" href="#">
-          {" "}
-          К списку авторов{" "}
-        </a>
+      <div className="main-container">
+        <div className="buttons">
+          <a className="to-authors-list" href="#">
+            {" "}
+            К списку авторов{" "}
+          </a>
+        </div>
+        <div className="main-page-text">{text}</div>
+        <AuthorOtD lang={lang} />
+        <StudentsTitle lang={lang} />
+        <StudentCards />
       </div>
-      <div className="main-page-text">{text}</div>
-      <AuthorOtD lang={lang} />
-      <StudentCards />
-    </div>
-    <AuthorOtD lang={lang}/>
-    <StudentsTitle lang={lang} />
-    <StudentCards />
   )
 }
 
