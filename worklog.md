@@ -51,6 +51,6 @@
 
 | time spent | feature |
 |-------------|-------------|
-|  |  |
-|  |  |
-|  |  |
+|4h|write html and css for gallery|
+|3h|add buttons and slider for gallery|
+|3h|fix bugs in code|
