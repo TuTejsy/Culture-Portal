@@ -4,16 +4,16 @@
       "photo": "https://raw.githubusercontent.com/TuTejsy/Culture-Portal/master/src/images/korotkevich.jpg",
       "video": "k8RQqc2Jocg",
       "gallery": [
-        "../images/korotkevich/1.jpg",
-        "../images/korotkevich/2.jpg",
-        "../images/korotkevich/3.jpg",
-        "../images/korotkevich/4.jpg",
-        "../images/korotkevich/5.jpg",
-        "../images/korotkevich/6.jpg",
-        "../images/korotkevich/7.jpg",
-        "../images/korotkevich/8.jpg",
-        "../images/korotkevich/9.jpg",
-        "../images/korotkevich/10.jpg"
+        "https://raw.githubusercontent.com/TuTejsy/Culture-Portal/master/src/images/korotkevich/1.jpg",
+        "https://raw.githubusercontent.com/TuTejsy/Culture-Portal/master/src/images/korotkevich/2.jpg",
+        "https://raw.githubusercontent.com/TuTejsy/Culture-Portal/master/src/images/korotkevich/3.jpg",
+        "https://raw.githubusercontent.com/TuTejsy/Culture-Portal/master/src/images/korotkevich/4.jpg",
+        "https://raw.githubusercontent.com/TuTejsy/Culture-Portal/master/src/images/korotkevich/5.jpg",
+        "https://raw.githubusercontent.com/TuTejsy/Culture-Portal/master/src/images/korotkevich/6.jpg",
+        "https://raw.githubusercontent.com/TuTejsy/Culture-Portal/master/src/images/korotkevich/7.jpg",
+        "https://raw.githubusercontent.com/TuTejsy/Culture-Portal/master/src/images/korotkevich/8.jpg",
+        "https://raw.githubusercontent.com/TuTejsy/Culture-Portal/master/src/images/korotkevich/9.jpg",
+        "https://raw.githubusercontent.com/TuTejsy/Culture-Portal/master/src/images/korotkevich/10.jpg"
       ],
       "mapInfo": [
         {
@@ -243,19 +243,19 @@
       }
     },
     {
-      "photo": "../images/alexievich.jpg",
+      "photo": "https://raw.githubusercontent.com/TuTejsy/Culture-Portal/master/src/images/alexievich.jpg",
       "video": "fTQXe-lX59M",
       "gallery": [
-        "../images/alexievich/1.jpg",
-        "../images/alexievich/2.jpg",
-        "../images/alexievich/3.jpg",
-        "../images/alexievich/4.jpg",
-        "../images/alexievich/5.jpg",
-        "../images/alexievich/6.jpg",
-        "../images/alexievich/7.jpg",
-        "../images/alexievich/8.jpg",
-        "../images/alexievich/9.jpg",
-        "../images/alexievich/10.jpg"
+        "https://raw.githubusercontent.com/TuTejsy/Culture-Portal/master/src/images/alexievich/1.jpg",
+        "https://raw.githubusercontent.com/TuTejsy/Culture-Portal/master/src/images/alexievich/2.jpg",
+        "https://raw.githubusercontent.com/TuTejsy/Culture-Portal/master/src/images/alexievich/3.jpg",
+        "https://raw.githubusercontent.com/TuTejsy/Culture-Portal/master/src/images/alexievich/4.jpg",
+        "https://raw.githubusercontent.com/TuTejsy/Culture-Portal/master/src/images/alexievich/5.jpg",
+        "https://raw.githubusercontent.com/TuTejsy/Culture-Portal/master/src/images/alexievich/6.jpg",
+        "https://raw.githubusercontent.com/TuTejsy/Culture-Portal/master/src/images/alexievich/7.jpg",
+        "https://raw.githubusercontent.com/TuTejsy/Culture-Portal/master/src/images/alexievich/8.jpg",
+        "https://raw.githubusercontent.com/TuTejsy/Culture-Portal/master/src/images/alexievich/9.jpg",
+        "https://raw.githubusercontent.com/TuTejsy/Culture-Portal/master/src/images/alexievich/10.jpg"
       ],
       "mapInfo": [
         {
@@ -495,19 +495,19 @@
       }
     },
     {
-      "photo": "../images/bykov.jpg",
+      "photo": "https://raw.githubusercontent.com/TuTejsy/Culture-Portal/master/src/images/bykov.jpg",
       "video": "WMZxWOejw_A",
       "gallery": [
-        "../images/bykov/1.jpg",
-        "../images/bykov/2.jpg",
-        "../images/bykov/3.jpg",
-        "../images/bykov/4.jpg",
-        "../images/bykov/5.jpg",
-        "../images/bykov/6.jpg",
-        "../images/bykov/7.jpg",
-        "../images/bykov/8.jpg",
-        "../images/bykov/9.jpg",
-        "../images/bykov/10.jpg"
+        "https://raw.githubusercontent.com/TuTejsy/Culture-Portal/master/src/images/bykov/1.jpg",
+        "https://raw.githubusercontent.com/TuTejsy/Culture-Portal/master/src/images/bykov/2.jpg",
+        "https://raw.githubusercontent.com/TuTejsy/Culture-Portal/master/src/images/bykov/3.jpg",
+        "https://raw.githubusercontent.com/TuTejsy/Culture-Portal/master/src/images/bykov/4.jpg",
+        "https://raw.githubusercontent.com/TuTejsy/Culture-Portal/master/src/images/bykov/5.jpg",
+        "https://raw.githubusercontent.com/TuTejsy/Culture-Portal/master/src/images/bykov/6.jpg",
+        "https://raw.githubusercontent.com/TuTejsy/Culture-Portal/master/src/images/bykov/7.jpg",
+        "https://raw.githubusercontent.com/TuTejsy/Culture-Portal/master/src/images/bykov/8.jpg",
+        "https://raw.githubusercontent.com/TuTejsy/Culture-Portal/master/src/images/bykov/9.jpg",
+        "https://raw.githubusercontent.com/TuTejsy/Culture-Portal/master/src/images/bykov/10.jpg"
       ],
       "mapInfo": [
         {
@@ -845,19 +845,19 @@
       }
     },
     {
-      "photo": "../images/shamiakin.jpg",
+      "photo": "https://raw.githubusercontent.com/TuTejsy/Culture-Portal/master/src/images/shamiakin.jpg",
       "video": "YcJGh_11rmY",
       "gallery": [
-        "../images/shamiakin/1.jpg",
-        "../images/shamiakin/2.png",
-        "../images/shamiakin/3.jpg",
-        "../images/shamiakin/4.jpg",
-        "../images/shamiakin/5.jpg",
-        "../images/shamiakin/6.jpg",
-        "../images/shamiakin/7.jpg",
-        "../images/shamiakin/8.jpg",
-        "../images/shamiakin/9.jpg",
-        "../images/shamiakin/10.jpg"
+        "https://raw.githubusercontent.com/TuTejsy/Culture-Portal/master/src/images/shamiakin/1.jpg",
+        "https://raw.githubusercontent.com/TuTejsy/Culture-Portal/master/src/images/shamiakin/2.png",
+        "https://raw.githubusercontent.com/TuTejsy/Culture-Portal/master/src/images/shamiakin/3.jpg",
+        "https://raw.githubusercontent.com/TuTejsy/Culture-Portal/master/src/images/shamiakin/4.jpg",
+        "https://raw.githubusercontent.com/TuTejsy/Culture-Portal/master/src/images/shamiakin/5.jpg",
+        "https://raw.githubusercontent.com/TuTejsy/Culture-Portal/master/src/images/shamiakin/6.jpg",
+        "https://raw.githubusercontent.com/TuTejsy/Culture-Portal/master/src/images/shamiakin/7.jpg",
+        "https://raw.githubusercontent.com/TuTejsy/Culture-Portal/master/src/images/shamiakin/8.jpg",
+        "https://raw.githubusercontent.com/TuTejsy/Culture-Portal/master/src/images/shamiakin/9.jpg",
+        "https://raw.githubusercontent.com/TuTejsy/Culture-Portal/master/src/images/shamiakin/10.jpg"
       ],
       "mapInfo": [
         {
@@ -1113,19 +1113,19 @@
       }
     },
     {
-      "photo": "../images/adamovich.jpg",
+      "photo": "https://raw.githubusercontent.com/TuTejsy/Culture-Portal/master/src/images/adamovich.jpg",
       "video": "v7P1Jc1KYvk",
       "gallery": [
-        "../images/adamovich/1.jpg",
-        "../images/adamovich/2.jpg",
-        "../images/adamovich/3.jpg",
-        "../images/adamovich/4.jpg",
-        "../images/adamovich/5.jpg",
-        "../images/adamovich/6.jpg",
-        "../images/adamovich/7.jpg",
-        "../images/adamovich/8.jpg",
-        "../images/adamovich/9.jpg",
-        "../images/adamovich/10.jpg"
+        "https://raw.githubusercontent.com/TuTejsy/Culture-Portal/master/src/images/adamovich/1.jpg",
+        "https://raw.githubusercontent.com/TuTejsy/Culture-Portal/master/src/images/adamovich/2.jpg",
+        "https://raw.githubusercontent.com/TuTejsy/Culture-Portal/master/src/images/adamovich/3.jpg",
+        "https://raw.githubusercontent.com/TuTejsy/Culture-Portal/master/src/images/adamovich/4.jpg",
+        "https://raw.githubusercontent.com/TuTejsy/Culture-Portal/master/src/images/adamovich/5.jpg",
+        "https://raw.githubusercontent.com/TuTejsy/Culture-Portal/master/src/images/adamovich/6.jpg",
+        "https://raw.githubusercontent.com/TuTejsy/Culture-Portal/master/src/images/adamovich/7.jpg",
+        "https://raw.githubusercontent.com/TuTejsy/Culture-Portal/master/src/images/adamovich/8.jpg",
+        "https://raw.githubusercontent.com/TuTejsy/Culture-Portal/master/src/images/adamovich/9.jpg",
+        "https://raw.githubusercontent.com/TuTejsy/Culture-Portal/master/src/images/adamovich/10.jpg"
       ],
       "mapInfo": [
         {
