@@ -1,27 +1,39 @@
 {
   "authors": [
     {
-      "photo": "../images/korotkevich.jpg",
+      "photo": "https://raw.githubusercontent.com/TuTejsy/Culture-Portal/master/src/images/korotkevich.jpg",
       "video": "k8RQqc2Jocg",
+      "gallery": [
+        "https://raw.githubusercontent.com/TuTejsy/Culture-Portal/master/src/images/korotkevich/1.jpg",
+        "https://raw.githubusercontent.com/TuTejsy/Culture-Portal/master/src/images/korotkevich/2.jpg",
+        "https://raw.githubusercontent.com/TuTejsy/Culture-Portal/master/src/images/korotkevich/3.jpg",
+        "https://raw.githubusercontent.com/TuTejsy/Culture-Portal/master/src/images/korotkevich/4.jpg",
+        "https://raw.githubusercontent.com/TuTejsy/Culture-Portal/master/src/images/korotkevich/5.jpg",
+        "https://raw.githubusercontent.com/TuTejsy/Culture-Portal/master/src/images/korotkevich/6.jpg",
+        "https://raw.githubusercontent.com/TuTejsy/Culture-Portal/master/src/images/korotkevich/7.jpg",
+        "https://raw.githubusercontent.com/TuTejsy/Culture-Portal/master/src/images/korotkevich/8.jpg",
+        "https://raw.githubusercontent.com/TuTejsy/Culture-Portal/master/src/images/korotkevich/9.jpg",
+        "https://raw.githubusercontent.com/TuTejsy/Culture-Portal/master/src/images/korotkevich/10.jpg"
+      ],
       "mapInfo": [
         {
           "point": "Orsha, place of birth",
-          "longitude": "54.510741",
-          "latitude": "30.429586",
+          "longitude": "30.429586",
+          "latitude": "54.510741",
           "zIndex": "1"
         },
         {
           "point": "Minsk, first flat",
-          "longitude": "53.926955",
-          "latitude": "27.600450",
+          "longitude": "27.600450",
+          "latitude": "53.926955",
           "zIndex": "2"
         },
         {
           "point": "Minsk, second flat",
-          "longitude": "53.923403",
-          "latitude": "27.551842",
+          "longitude": "27.551842",
+          "latitude": "53.923403",
           "zIndex": "3"
-        },
+        }
       ],
       "language": {
         "ru": {
@@ -74,7 +86,7 @@
               {
                 "date": "к. 1970-х — нач. 1980-х",
                 "text": "Тяжело болел и умер 25 июля 1984 года. Похоронен на Восточном кладбище в Минске."
-              },
+              }
             ],
             "worksList": [
               {
@@ -100,8 +112,8 @@
               {
                 "title": "Чёрный замок Ольшанский",
                 "date": "1979"
-              },
-            ],
+              }
+            ]
           }
         },
         "en": {
@@ -134,9 +146,9 @@
               {
                 "date": "1970 — 1980",
                 "text": "Was sick and died soon."
-              },
+              }
             ],
-          "worksList": [
+            "worksList": [
               {
                 "title": "King Stakh's Wild Hunt",
                 "date": "1958, published in 1964"
@@ -144,9 +156,9 @@
               {
                 "title": "The Dark Castle Olshansky",
                 "date": "1979"
-              },
-            ],
-          },
+              }
+            ]
+          }
         },
         "by": {
           "name": "Уладзімір Сямёнавіч Караткевіч",
@@ -198,7 +210,7 @@
               {
                 "date": "к. 1970-х — пач. 1980-х",
                 "text": "Моцна хварэў і каля месяца праляжаў у рэанімацыі. Вясной пачаў адчуваць сябе лепш. Незадоўга да смерці Караткевіч наведаў блізкія і дарагія яму мясціны. Памер 25 ліпеня 1984 года. Пахаваны на Усходніх могілках у Мінску."
-              },
+              }
             ],
             "worksList": [
               {
@@ -224,28 +236,40 @@
               {
                 "title": "Чорны замак Альшанскі",
                 "date": "1979"
-              },
-            ],
+              }
+            ]
           }
         }
       }
     },
     {
-      "photo": "../images/alexievich.jpg",
+      "photo": "https://raw.githubusercontent.com/TuTejsy/Culture-Portal/master/src/images/alexievich.jpg",
       "video": "fTQXe-lX59M",
+      "gallery": [
+        "https://raw.githubusercontent.com/TuTejsy/Culture-Portal/master/src/images/alexievich/1.jpg",
+        "https://raw.githubusercontent.com/TuTejsy/Culture-Portal/master/src/images/alexievich/2.jpg",
+        "https://raw.githubusercontent.com/TuTejsy/Culture-Portal/master/src/images/alexievich/3.jpg",
+        "https://raw.githubusercontent.com/TuTejsy/Culture-Portal/master/src/images/alexievich/4.jpg",
+        "https://raw.githubusercontent.com/TuTejsy/Culture-Portal/master/src/images/alexievich/5.jpg",
+        "https://raw.githubusercontent.com/TuTejsy/Culture-Portal/master/src/images/alexievich/6.jpg",
+        "https://raw.githubusercontent.com/TuTejsy/Culture-Portal/master/src/images/alexievich/7.jpg",
+        "https://raw.githubusercontent.com/TuTejsy/Culture-Portal/master/src/images/alexievich/8.jpg",
+        "https://raw.githubusercontent.com/TuTejsy/Culture-Portal/master/src/images/alexievich/9.jpg",
+        "https://raw.githubusercontent.com/TuTejsy/Culture-Portal/master/src/images/alexievich/10.jpg"
+      ],
       "mapInfo": [
         {
           "point": "Ivano-Frankovsk, place of birth",
-          "longitude": "48.922629",
-          "latitude": "24.711108",
+          "longitude": "24.711108",
+          "latitude": "48.922629",
           "zIndex": "1"
         },
         {
           "point": "Berioza, first flat",
-          "longitude": "52.534603",
-          "latitude": "24.984475",
+          "longitude": "24.984475",
+          "latitude": "52.534603",
           "zIndex": "2"
-        },
+        }
       ],
       "language": {
         "ru": {
@@ -294,7 +318,7 @@
               {
                 "date": "2015",
                 "text": "Стала лауреатом Нобелевской премии по литературе с формулировкой «за её многоголосное творчество — памятник страданию и мужеству в наше время». Светлана Алексиевич — первый нобелевский лауреат в истории независимой Беларуси; она стала первым с 1987 года русскоязычным писателем, удостоенным Нобелевской премии по литературе. Впервые за полвека премия была присуждена писателю, преимущественно работающему в жанре документальной литературы; при этом впервые в истории Нобелевская премия по литературе присуждена профессиональному журналисту."
-              },
+              }
             ],
             "worksList": [
               {
@@ -320,8 +344,8 @@
               {
                 "title": "Время секонд хэнд",
                 "date": "2013"
-              },
-            ],
+              }
+            ]
           }
         },
         "en": {
@@ -362,7 +386,7 @@
               {
                 "date": "2015",
                 "text": "Nobel Prize in Literature."
-              },
+              }
             ],
             "worksList": [
               {
@@ -384,9 +408,9 @@
               {
                 "title": "Second-hand Time",
                 "date": "2013"
-              },
-            ],
-          },
+              }
+            ]
+          }
         },
         "by": {
           "name": "Святлана Аляксандраўна Алексіевіч",
@@ -442,7 +466,7 @@
               {
                 "date": "2018",
                 "text": "Міжнародная няўрадавая арганізацыя RAW in WAR прысудзіла Святлане Алексіевіч прэмію імя Ганны Паліткоўскай. Узнагароду ёй уручылі за «смелыя выступленні супраць несправядлівасці, гвалту і экстрэмізму ў сітуацыі працягу „забытых“ узброеных канфліктаў». У тым жа годзе пісьменніца атрымала прэмію Цэнтральнаеўрапейскага форума «Ганароваму грамадзяніну Цэнтральнай Еўропы» — «за ўнёсак у развіццё дэмакратыі і грамадзянскай супольнасці»."
-              },
+              }
             ],
             "worksList": [
               {
@@ -464,46 +488,58 @@
               {
                 "title": "Час сэканд-хэнд",
                 "date": "2013 - на рус. мове, на бел. мове - 2014"
-              },
-            ],
+              }
+            ]
           }
         }
       }
     },
     {
-      "photo": "../images/bykov.jpg",
+      "photo": "https://raw.githubusercontent.com/TuTejsy/Culture-Portal/master/src/images/bykov.jpg",
       "video": "WMZxWOejw_A",
+      "gallery": [
+        "https://raw.githubusercontent.com/TuTejsy/Culture-Portal/master/src/images/bykov/1.jpg",
+        "https://raw.githubusercontent.com/TuTejsy/Culture-Portal/master/src/images/bykov/2.jpg",
+        "https://raw.githubusercontent.com/TuTejsy/Culture-Portal/master/src/images/bykov/3.jpg",
+        "https://raw.githubusercontent.com/TuTejsy/Culture-Portal/master/src/images/bykov/4.jpg",
+        "https://raw.githubusercontent.com/TuTejsy/Culture-Portal/master/src/images/bykov/5.jpg",
+        "https://raw.githubusercontent.com/TuTejsy/Culture-Portal/master/src/images/bykov/6.jpg",
+        "https://raw.githubusercontent.com/TuTejsy/Culture-Portal/master/src/images/bykov/7.jpg",
+        "https://raw.githubusercontent.com/TuTejsy/Culture-Portal/master/src/images/bykov/8.jpg",
+        "https://raw.githubusercontent.com/TuTejsy/Culture-Portal/master/src/images/bykov/9.jpg",
+        "https://raw.githubusercontent.com/TuTejsy/Culture-Portal/master/src/images/bykov/10.jpg"
+      ],
       "mapInfo": [
         {
           "point": "Bychki, place of birth; Bykov's museum",
-          "longitude": "55.165832",
-          "latitude": "28.379720",
+          "longitude": "28.379720",
+          "latitude": "55.165832",
           "zIndex": "1"
         },
         {
           "point": "Vitebsk Art School, place of education",
-          "longitude": "55.188540",
-          "latitude": "30.202797",
+          "longitude": "30.202797",
+          "latitude": "55.188540",
           "zIndex": "2"
         },
         {
           "point": "Grodno, Trojetskaja str., first flat",
-          "longitude": "53.680772",
-          "latitude": "23.828415",
+          "longitude": "23.828415",
+          "latitude": "53.680772",
           "zIndex": "3"
         },
         {
           "point": "Grodno, Sverdlova str., second flat",
-          "longitude": "53.675530",
-          "latitude": "23.834595",
+          "longitude": "23.834595",
+          "latitude": "53.675530",
           "zIndex": "4"
         },
         {
           "point": "Grodno, Parizhskai Kommuny str., third flat",
-          "longitude": "53.673865",
-          "latitude": "23.835377",
+          "longitude": "23.835377",
+          "latitude": "53.673865",
           "zIndex": "5"
-        },
+        }
       ],
       "language": {
         "ru": {
@@ -568,7 +604,7 @@
               {
                 "date": "22 июня 2003",
                 "text": "Умер 22 июня 2003 года в 20 часов 30 минут от злокачественной опухоли желудка в реанимационном отделении онкологического госпиталя в Боровлянах, под Минском. Он был отпет в минском Доме литератора согласно обряду Грекокатолической церкви; гроб писателя был накрыт бело-красно-белым флагом. Похоронен на Восточном кладбище в Минске."
-              },
+              }
             ],
             "worksList": [
               {
@@ -606,8 +642,8 @@
               {
                 "title": "Долгая дорога домой",
                 "date": "2003"
-              },
-            ],
+              }
+            ]
           }
         },
         "en": {
@@ -672,7 +708,7 @@
               {
                 "date": "June 22, 2003",
                 "text": "He died on June 22, 2003 at 20 hours 30 minutes from a malignant stomach tumor in the intensive care unit of the oncological hospital in Borovlyany, near Minsk. Buried at the Eastern cemetery in Minsk. "
-              },
+              }
             ],
             "worksList": [
               {
@@ -698,9 +734,9 @@
               {
                 "title": "The Long Road Home",
                 "date": "2003"
-              },
-            ],
-          },
+              }
+            ]
+          }
         },
         "by": {
           "name": "Васіль Уладзіміравіч Быкаў",
@@ -764,7 +800,7 @@
               {
                 "date": "22 чэрвеня 2003",
                 "text": "Памёр 22 чэрвеня 2003 года ў 20 гадзін 30 хвілін у рэанімацыйным аддзяленні анкалагічнага шпіталю ў Бараўлянах, пад Мінскам. Пахаваны ў Мінску на Усходніх могілках. Падчас пахавання быў адпеты ўніяцкімі святарамі, труну пісьменніка накрылі бел-чырвона-белым сцягам."
-              },
+              }
             ],
             "worksList": [
               {
@@ -802,28 +838,40 @@
               {
                 "title": "Доўгая дарога дадому",
                 "date": "2003"
-              },
-            ],
+              }
+            ]
           }
         }
       }
     },
     {
-      "photo": "../images/shamiakin.jpg",
+      "photo": "https://raw.githubusercontent.com/TuTejsy/Culture-Portal/master/src/images/shamiakin.jpg",
       "video": "YcJGh_11rmY",
+      "gallery": [
+        "https://raw.githubusercontent.com/TuTejsy/Culture-Portal/master/src/images/shamiakin/1.jpg",
+        "https://raw.githubusercontent.com/TuTejsy/Culture-Portal/master/src/images/shamiakin/2.png",
+        "https://raw.githubusercontent.com/TuTejsy/Culture-Portal/master/src/images/shamiakin/3.jpg",
+        "https://raw.githubusercontent.com/TuTejsy/Culture-Portal/master/src/images/shamiakin/4.jpg",
+        "https://raw.githubusercontent.com/TuTejsy/Culture-Portal/master/src/images/shamiakin/5.jpg",
+        "https://raw.githubusercontent.com/TuTejsy/Culture-Portal/master/src/images/shamiakin/6.jpg",
+        "https://raw.githubusercontent.com/TuTejsy/Culture-Portal/master/src/images/shamiakin/7.jpg",
+        "https://raw.githubusercontent.com/TuTejsy/Culture-Portal/master/src/images/shamiakin/8.jpg",
+        "https://raw.githubusercontent.com/TuTejsy/Culture-Portal/master/src/images/shamiakin/9.jpg",
+        "https://raw.githubusercontent.com/TuTejsy/Culture-Portal/master/src/images/shamiakin/10.jpg"
+      ],
       "mapInfo": [
         {
           "point": "Korma, place of birth",
-          "longitude": "53.128672", 
-          "latitude": "30.804318",
+          "longitude": "30.804318",
+          "latitude": "53.128672",
           "zIndex": "1"
         },
         {
           "point": "Minsk, East Cemetery, Burial place",
-          "longitude": "53.940350",
-          "latitude": "27.660655",
+          "longitude": "27.660655",
+          "latitude": "53.940350",
           "zIndex": "2"
-        },
+        }
       ],
       "language": {
         "ru": {
@@ -868,7 +916,7 @@
               {
                 "date": "14 октября 2004",
                 "text": "Скончался в Минске. Похоронен на Восточном кладбище."
-              },
+              }
             ],
             "worksList": [
               {
@@ -902,8 +950,8 @@
               {
                 "title": "Корни и ветви",
                 "date": "1986"
-              },
-            ],
+              }
+            ]
           }
         },
         "en": {
@@ -948,7 +996,7 @@
               {
                 "date": "October 14, 2004",
                 "text": "Died in Minsk."
-              },
+              }
             ],
             "worksList": [
               {
@@ -982,9 +1030,9 @@
               {
                 "title": "Wicked star",
                 "date": "1993"
-              },
-            ],
-          },
+              }
+            ]
+          }
         },
         "by": {
           "name": "Іван Пятровіч Шамякін",
@@ -1024,7 +1072,7 @@
               {
                 "date": "14 кастрычніка 2004",
                 "text": "Памёр у Мінску. Пахаваны на Усходніх могілках."
-              },
+              }
             ],
             "worksList": [
               {
@@ -1058,34 +1106,46 @@
               {
                 "title": "У роднай сям’і",
                 "date": "1986"
-              },
-            ],
+              }
+            ]
           }
         }
       }
     },
     {
-      "photo": "../images/adamovich.jpg",
+      "photo": "https://raw.githubusercontent.com/TuTejsy/Culture-Portal/master/src/images/adamovich.jpg",
       "video": "v7P1Jc1KYvk",
+      "gallery": [
+        "https://raw.githubusercontent.com/TuTejsy/Culture-Portal/master/src/images/adamovich/1.jpg",
+        "https://raw.githubusercontent.com/TuTejsy/Culture-Portal/master/src/images/adamovich/2.jpg",
+        "https://raw.githubusercontent.com/TuTejsy/Culture-Portal/master/src/images/adamovich/3.jpg",
+        "https://raw.githubusercontent.com/TuTejsy/Culture-Portal/master/src/images/adamovich/4.jpg",
+        "https://raw.githubusercontent.com/TuTejsy/Culture-Portal/master/src/images/adamovich/5.jpg",
+        "https://raw.githubusercontent.com/TuTejsy/Culture-Portal/master/src/images/adamovich/6.jpg",
+        "https://raw.githubusercontent.com/TuTejsy/Culture-Portal/master/src/images/adamovich/7.jpg",
+        "https://raw.githubusercontent.com/TuTejsy/Culture-Portal/master/src/images/adamovich/8.jpg",
+        "https://raw.githubusercontent.com/TuTejsy/Culture-Portal/master/src/images/adamovich/9.jpg",
+        "https://raw.githubusercontent.com/TuTejsy/Culture-Portal/master/src/images/adamovich/10.jpg"
+      ],
       "mapInfo": [
         {
           "point": "Koniuhi, place of birth",
-          "longitude": "53.153153",
-          "latitude": "27.384935",
+          "longitude": "27.384935",
+          "latitude": "53.153153",
           "zIndex": "1"
         },
         {
           "point": "Belorusian State University, place of education and work",
-          "longitude": "53.893848",
-          "latitude": "27.547144",
+          "longitude": "27.547144",
+          "latitude": "53.893848",
           "zIndex": "2"
         },
         {
           "point": "Glusha, Mogilev oblast, burial place",
-          "longitude": "53.087324",
-          "latitude": "28.855971",
+          "longitude": "28.855971",
+          "latitude": "53.087324",
           "zIndex": "3"
-        },
+        }
       ],
       "language": {
         "ru": {
@@ -1134,7 +1194,7 @@
               {
                 "date": "26 января 1994",
                 "text": "Умер в Москве от второго инфаркта. По завещанию похоронен в городском посёлке Глуша Бобруйского района Могилёвской области рядом с родителями."
-              },
+              }
             ],
             "worksList": [
               {
@@ -1164,8 +1224,8 @@
               {
                 "title": "Последняя пастораль",
                 "date": "1987"
-              },
-            ],
+              }
+            ]
           }
         },
         "en": {
@@ -1177,7 +1237,7 @@
             "timeline": [
               {
                 "date": "September 3, 1927",
-                "text": "Was born in Koniuhi in the Minsk Oblast. Both his parents were doctors."
+                "text": "Was born in a Koniuhi in the Minsk Oblast. Both his parents were doctors."
               },
               {
                 "date": "1940 - 1945",
@@ -1206,7 +1266,7 @@
               {
                 "date": "January 26, 1994",
                 "text": "Adamovich died."
-              },
+              }
             ],
             "worksList": [
               {
@@ -1224,8 +1284,8 @@
               {
                 "title": "The blockade book (with D. Granin)",
                 "date": "1980"
-              },
-            ],
+              }
+            ]
           }
         },
         "by": {
@@ -1274,7 +1334,7 @@
               {
                 "date": "26 студзеня 1994",
                 "text": "Памёр ад хваробы сэрца."
-              },
+              }
             ],
             "worksList": [
               {
@@ -1300,11 +1360,11 @@
               {
                 "title": "Последняя пастораль",
                 "date": "1987"
-              },
-            ],
+              }
+            ]
           }
         }
       }
-    },
+    }
   ]
 }

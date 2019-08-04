@@ -1,0 +1,13 @@
+.author-preview img {
+  margin: 0 auto;
+  min-width: 250px;
+  width: 250px;
+  object-fit: cover;
+}
+
+@media (max-width: 768px) {
+  .author-preview-img-top {
+    width: 100%;
+    object-fit: cover;
+  }
+}
