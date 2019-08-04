@@ -88,10 +88,11 @@ const Main = ({ lang }) => {
   return (
       <div className="main-container">
         <div className="buttons">
-          <a className="to-authors-list" href="#">
-            {" "}
-            К списку авторов{" "}
-          </a>
+          <Link
+            to="/search/"
+            state={{lang}}>
+            <div className="to-authors-list">К списку авторов</div>
+          </Link>
         </div>
         <div className="main-page-text">{text}</div>
         <AuthorOtD lang={lang} />
