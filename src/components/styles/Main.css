@@ -53,20 +53,6 @@ p {
 .buttons a:hover {
     background: #6F94A0;
 }
-.author-of-the-day {
-    display: flex;
-	flex-direction: column;
-	flex-wrap: nowrap;
-    justify-content: flex-start;
-    align-items: stretch;
-    align-content: center;
-    margin: 5vh auto;
-    width: 30vw;
-    height: 20vh;
-    font-size: 3vh;
-    color: white;
-    border: 1px solid #6F94A0;
-}
 
 .title {
     display: flex;
