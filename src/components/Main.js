@@ -7,7 +7,6 @@ import AuthorOtD from "./AuthorOtD";
 import "./pages/Main.css"
 
 const Main = ({ lang }) => (
-  <Layout>
     <div className="main-container">
       <div className="buttons">
           <a className="to-authors-list" href="#"> К списку авторов </a>
@@ -72,7 +71,8 @@ const Main = ({ lang }) => (
           </div> 
         </div>
     </div>
-  </Layout>
+  <AuthorOtD lang={lang}/>
+    <StudentCards />
 )
 
 export default Main
