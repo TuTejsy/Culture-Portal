@@ -49,12 +49,13 @@ const AuthorOtD = ({ lang }) => {
     <div className="author-of-the-day__container">
       <h2 className="author-of-the-day__title">{title}</h2>
       <div className="author-of-the-day">
-        <img
-          src={author.photo}
-          alt="Фото автора"
-          className="author-of-the-day__photo"
-          width="100px"
-        ></img>
+        <div className="author-of-the-day__photo_wrapper">
+          <img
+            src={author.photo}
+            alt="Фото автора"
+            className="author-of-the-day__photo"
+          ></img>
+        </div>
         <div className="author-of-the-day__info">
           <h2 className="author-of-the-day__info__name">{author.language[lang].name}</h2>
           <h5 className="author-of-the-day__info__date">{author.language[lang].date}</h5>
