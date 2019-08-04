@@ -1,24 +1,42 @@
-* {
-  margin: 0 auto;
-}
 
 .search-container {
-  width: 100%;
+  margin-top: 50px;
+  margin-bottom: 100px;
   display: flex;
-  align-items: stretch;
-}
-
-.search-input {
-  width: 75%;
-}
-
-.form-control {
-  width: 25%;
-}
-
-.previews-block {
-  display: flex;
-  flex-direction: column;
   justify-content: center;
-  margin-top: 1rem;
+  align-items: center;
+}
+
+.search-label {
+  margin: 0;
+  margin-right: 20px;
+  font-size: 25px;
+  line-height: 40px;
+}
+
+.search-container .search-input {
+  padding: 0;
+  margin-right: 20px;
+  width: 40%;
+  border: 1px solid #767ea3;
+  font-size: 25px;
+  line-height: 40px;
+}
+
+.search-container .author-birthPlace {
+  background: none;
+  height: 40px;
+  border: 1px solid #767ea3;
+  border-radius: none;
+}
+
+@media (max-width: 768px) {
+  .search-container {
+    flex-direction: column;
+  }
+
+  .search-container .search-input {
+    width: 70%;
+    margin-bottom: 10px;
+  }
 }
