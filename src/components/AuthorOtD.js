@@ -6,7 +6,7 @@ import * as data from '../data/data.json'
 
 function getAuthor() {
   const date = new Date();
-  const authorIndex = date.getDate() % 7;
+  const authorIndex = date.getDate() % 5;
   return data.authors[authorIndex];
 }
 
