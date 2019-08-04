@@ -10035,4 +10035,46 @@ a.text-dark:hover, a.text-dark:focus {
     border-color: #dee2e6;
   }
 }
+
+.student-card_container{
+  width: 100%;
+  height: 300px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.student-card{
+  width: 23%;
+  padding: 3% 2%;
+  margin: 1% 1%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+.student-card__photo{
+}
+.student-card__info__name{
+}
+.student-card__info__work{
+  font-size: 12px;
+}
+.student-card__contacts{
+  align-self: flex-end;
+  padding: 5%;
+  margin-top: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 10px;
+  text-decoration: none;
+  -webkit-transition: 50ms;
+}
+.student-card__contacts:hover{
+  background-color: #2B2635;
+  color: white;
+  -webkit-transform: scale(1.1);
+  -webkit-transition: 50ms;
+}
 /*# sourceMappingURL=bootstrap.css.map */

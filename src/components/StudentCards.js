@@ -13,8 +13,8 @@ function StudentCard({ student }) {
         width="100%"
       ></img>
       <div className="student-card__info">
-        <h1>{student.name}</h1>
-        <h5>{student.work}</h5>
+        <h5 className="student-card__info__name">{student.name}</h5>
+        <p className="student-card__info__work">{student.work}</p>
       </div>
       <a className="student-card__contacts" href={student.github}>{student.github.slice(19)}</a>
     </div>
