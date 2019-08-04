@@ -1,56 +1,55 @@
-*tutejsy*
+_tutejsy_
+
+| time spent | feature                                                          |
+| ---------- | ---------------------------------------------------------------- |
+| 4h         | add project architecture                                         |
+| 20m        | add Author and Search components, create and connect style files |
+| 4h         | add Search widget                                                |
+
+_zamtakaish_
 
 | time spent | feature |
-|-------------|-------------|
-| 4h | add project architecture |
-| 20m | add Author and Search components, create and connect style files |
-|  |  |
+| ---------- | ------- |
+|            |         |
+|            |         |
+|            |         |
 
-
-*zamtakaish*
-
-| time spent | feature |
-|-------------|-------------|
-|  |  |
-|  |  |
-|  |  |
-
-*natalyaapasova*
+_natalyaapasova_
 
 | time spent | feature |
-|-------------|-------------|
-|  |  |
-|  |  |
-|  |  |
+| ---------- | ------- |
+|            |         |
+|            |         |
+|            |         |
 
-*505flamingo*
-
-| time spent | feature |
-|-------------|-------------|
-|  |  |
-|  |  |
-|  |  |
-
-*katyyats*
+_505flamingo_
 
 | time spent | feature |
-|-------------|-------------|
-|  |  |
-|  |  |
-|  |  |
+| ---------- | ------- |
+|            |         |
+|            |         |
+|            |         |
 
-*qunapi*
+_katyyats_
+
+| time spent | feature |
+| ---------- | ------- |
+|            |         |
+|            |         |
+|            |         |
+
+_qunapi_
 
 | time spent | feature            |
-|------------|--------------------|
-| 2h         | Author page layout | 
+| ---------- | ------------------ |
+| 2h         | Author page layout |
 | 2h         | data loading       |
 | 1h         | bootstrap          |
 
-*vladmeleshko*
+_vladmeleshko_
 
 | time spent | feature |
-|-------------|-------------|
-|  |  |
-|  |  |
-|  |  |
+| ---------- | ------- |
+|            |         |
+|            |         |
+|            |         |
