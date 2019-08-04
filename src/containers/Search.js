@@ -3,6 +3,7 @@ import React, { Component } from "react";
 import './styles/Search.css';
 import AuthorPriview from '../components/AuthorPreview'
 import * as data from '../data/data.json'
+import '../components/styles/bootstrap.css'
 
 export default class Search extends Component {
   constructor() {
@@ -62,14 +63,18 @@ export default class Search extends Component {
 
     return (
       <>
-        <div className="search-container">
-          <input type="text" className="search-input" onChange={this.handleInputChange} />
-          <select name="author-birthPlace" id="author-birthPlace" onChange={this.handleBirthPlaceChange}>
-            <option value=""></option>
-            {this.renderBirthPlaces()}
-          </select>
+        <div className="input-group">
+          <div className="search-container">
+            <input type="text" className="search-input" onChange={this.handleInputChange} />
+            <select className="form-control" name="author-birthPlace" id="author-birthPlace" onChange={this.handleBirthPlaceChange}>
+              <option value=""></option>
+              {this.renderBirthPlaces()}
+            </select>
+          </div>
         </div>
-        {authorPreviews}
+        <div className="previews-block">
+          {authorPreviews}
+        </div>
       </>
     )
   }
