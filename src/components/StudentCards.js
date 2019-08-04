@@ -1,8 +1,8 @@
 import React from "react"
-import ReactSVG from 'react-svg'
+import ReactSVG from "react-svg"
 
-import "./styles/bootstrap.css";
-import { studentData } from '../data/studentData';
+import "./styles/bootstrap.css"
+import { studentData } from "../data/studentData"
 
 function StudentCard({ student }) {
   return (
@@ -18,25 +18,28 @@ function StudentCard({ student }) {
         <p className="student-card__info__work">{student.work}</p>
       </div>
 
-        <a className="student-card__contacts_link" href={student.github}>
-          <ReactSVG src='https://raw.githubusercontent.com/TuTejsy/Culture-Portal/master/src/images/icons/github-icon.svg' className="student-card__contacts_link_icon"/>
-        </a>
+      <a className="student-card__contacts_link" href={student.github}>
+        <ReactSVG
+          src="https://raw.githubusercontent.com/TuTejsy/Culture-Portal/master/src/images/icons/github-icon.svg"
+          className="student-card__contacts_link_icon"
+        />
+      </a>
     </div>
   )
 }
 
 export default class StudentCards extends React.Component {
   constructor(props) {
-    super(props);
+    super(props)
   }
-
 
   render() {
     return (
       <div className="student-card_container">
-        {studentData.map((student) => <StudentCard student={student} />)}
+        {studentData.map((student, i) => (
+          <StudentCard student={student} key={i} />
+        ))}
       </div>
-
-    );
+    )
   }
 }
