@@ -46,20 +46,22 @@ const AuthorOtD = ({ lang }) => {
   const author = getAuthor();
 
   return (
-    <div className="author-of-the-day">
-      {title}
-      <img
-        src={author.photo}
-        alt="Фото автора"
-        className="author-of-the-day__photo"
-        width="100px"
-      ></img>
-      <div className="author-of-the-day__info">
-        <h1>{author.language[lang].name}</h1>
-        <h5>{author.language[lang].date}</h5>
-        <p>{author.language[lang].summary}</p>
+    <div className="author-of-the-day__container">
+      <h2 className="author-of-the-day__title">{title}</h2>
+      <div className="author-of-the-day">
+        <img
+          src={author.photo}
+          alt="Фото автора"
+          className="author-of-the-day__photo"
+          width="100px"
+        ></img>
+        <div className="author-of-the-day__info">
+          <h2 className="author-of-the-day__info__name">{author.language[lang].name}</h2>
+          <h5 className="author-of-the-day__info__date">{author.language[lang].date}</h5>
+          <p className="author-of-the-day__info__summary">{author.language[lang].summary}</p>
+          <Link to="/author" state={{ lang, author }} className='author-of-the-day__info__button_link'>{buttonDescription}</Link>
+        </div>
       </div>
-      <Link to="/author" state={{ lang, author }} className='author-of-the-day__button_link'>{buttonDescription}</Link>
     </div>
   )
 }
