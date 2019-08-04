@@ -4,10 +4,10 @@ import React from 'react'
 import Image from "./Image"
 import StudentCards from './StudentCards';
 import AuthorOtD from "./AuthorOtD";
-import "./pages/styles.css"
+import "./pages/Main.css"
 
 const Main = ({ lang }) => (
-  <>
+  <Layout>
     <div className="main-container">
       <div className="buttons">
           <a className="to-authors-list" href="#"> К списку авторов </a>
@@ -72,7 +72,7 @@ const Main = ({ lang }) => (
           </div> 
         </div>
     </div>
-  </>
+  </Layout>
 )
 
 export default Main

@@ -1,13 +1,16 @@
 import React from "react"
-import { Link } from "gatsby"
 
 import Layout from "../components/Layout"
-import Image from "../components/Image"
+import Main from "../components/Main"
 import SEO from "../components/Seo"
+import Photos from "../components/PhotoGallery"
 
-const IndexPage = ({ lang }) => (
-  <Layout>
-    
+const IndexPage = ({ location }) => (
+  <Layout language={location.state ? location.state.lang : null}>
+    <SEO title="Main" />
+
+    <Main />
+
   </Layout>
 )
 
