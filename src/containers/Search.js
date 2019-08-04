@@ -90,7 +90,10 @@ export default class Search extends Component {
     return (
       <>
         <div className="search-container">
-          <label htmlFor="search-input" class="search-label search-input-label">
+          <label
+            htmlFor="search-input"
+            className="search-label search-input-label"
+          >
             {name}:
           </label>
           <input
@@ -101,14 +104,14 @@ export default class Search extends Component {
           />
           <label
             htmlFor="author-birthPlace"
-            class="search-label author-birthPlace-label"
+            className="search-label author-birthPlace-label"
           >
             {city}:
           </label>
           <select
             name="author-birthPlace"
             id="author-birthPlace"
-            class="author-birthPlace"
+            className="author-birthPlace"
             onChange={this.handleBirthPlaceChange}
           >
             <option value=""></option>

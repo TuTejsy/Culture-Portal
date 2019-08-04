@@ -20,19 +20,31 @@ function BasicInfo({ author, lang }) {
           <h5>{author.language[lang].birthPlace}</h5>
         </div>
       </div>
-        <VideoComponent author={author}></VideoComponent>
+      <VideoComponent author={author}></VideoComponent>
     </div>
   )
 }
 
-function VideoComponent({ author, video }) {
+function VideoComponent({ author }) {
   let url = `https://www.youtube.com/embed/${author.video}`
   return (
     <>
-      <button type="button" className="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+      <button
+        type="button"
+        className="btn btn-primary"
+        data-toggle="modal"
+        data-target="#exampleModal"
+      >
         Play video
       </button>
-      <div className="modal fade" id="exampleModal" tabIndex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div
+        className="modal fade"
+        id="exampleModal"
+        tabIndex="-1"
+        role="dialog"
+        aria-labelledby="exampleModalLabel"
+        aria-hidden="true"
+      >
         <div className="modal-dialog modal-dialog-centered">
           <div className="modal-content">
             <div className="modal-body">
@@ -52,9 +64,9 @@ function VideoComponent({ author, video }) {
   )
 }
 
-function createWorksRow(author) {
+function createWorksRow(author, i) {
   return (
-    <tr>
+    <tr key={i}>
       <td>{author.date}</td>
       <td>{author.title}</td>
     </tr>
