@@ -4,6 +4,7 @@ import { Timeline, TimelineItem } from "vertical-timeline-component-for-react"
 import "./styles/bootstrap.css"
 import "./styles/Author.css"
 import MapWidget from "../components/MapWidget"
+import "bootstrap"
 
 function BasicInfo({ author, lang }) {
   return (
