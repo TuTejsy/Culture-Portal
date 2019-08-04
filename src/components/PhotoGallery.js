@@ -20,7 +20,6 @@ class Photos extends React.Component {
         } else {
             photoNum = photo.id.slice(5, 6);
         }
-        console.log(photoNum)
         slide.classList.remove('active');
         photo.classList.remove('active-photo');
         if (slideNum === "1") {
