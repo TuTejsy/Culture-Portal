@@ -1,6 +1,7 @@
 import React from "react"
 import { Timeline, TimelineItem } from "vertical-timeline-component-for-react"
 
+import "bootstrap"
 import "./styles/bootstrap.css"
 import "./styles/Author.css"
 import MapWidget from "../components/MapWidget"
@@ -8,32 +9,48 @@ import Photo from './PhotoGallery'
 
 function BasicInfo({ author, lang }) {
   return (
-    <div className="d-flex flex-column flex-md-row">
-      <img
-        src={author.photo}
-        alt="Фото автора"
-        className="rounded mr-3 ml-3"
-        width="200px"
-      ></img>
-      <div className="">
-        <h1>{author.language[lang].name}</h1>
-        <h5>{author.language[lang].birthPlace}</h5>
+    <div>
+      <div className="d-flex flex-column flex-md-row">
+        <img
+          src={author.photo}
+          alt="Фото автора"
+          className="rounded mr-3 ml-3"
+          width="200px"
+        ></img>
+        <div className="">
+          <h1>{author.language[lang].name}</h1>
+          <h5>{author.language[lang].birthPlace}</h5>
+        </div>
       </div>
+        <VideoComponent author={author}></VideoComponent>
     </div>
   )
 }
 
-function VideoComponent({ videoId }) {
-  const url = `https://www.youtube.com/embed/${videoId}`
+function VideoComponent({ author, video }) {
+  let url = `https://www.youtube.com/embed/${author.video}`
   return (
-    <div className="embed-responsive embed-responsive-16by9 mb-5">
-      <iframe
-        className="embed-responsive-item"
-        src={url}
-        allowFullScreen
-        title="title"
-      ></iframe>
-    </div>
+    <>
+      <button type="button" className="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+        Play video
+      </button>
+      <div className="modal fade" id="exampleModal" tabIndex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div className="modal-dialog modal-dialog-centered">
+          <div className="modal-content">
+            <div className="modal-body">
+              <div className="embed-responsive embed-responsive-16by9 mb-5">
+                <iframe
+                  className="embed-responsive-item"
+                  src={url}
+                  allowFullScreen
+                  title="title"
+                ></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </>
   )
 }
 
@@ -64,7 +81,6 @@ const Author = ({ author, lang }) => {
       <Photo author={author}/>
       <MapWidget id="myMap" author={author} />
       {/* <galleryComponent></galleryComponent>  */}
-      <VideoComponent videoId={author}></VideoComponent>
     </div>
   )
 }
