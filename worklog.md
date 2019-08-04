@@ -11,9 +11,9 @@
 
 | time spent | feature |
 |-------------|-------------|
-|  |  |
-|  |  |
-|  |  |
+| 7h | create and master Map widget |
+| 2h | add 'author of the day' block on main page |
+| 4h | create and master student cards |
 
 *natalyaapasova*
 
