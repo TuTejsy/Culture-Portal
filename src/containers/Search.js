@@ -1,9 +1,9 @@
 import React, { Component } from "react"
 
-import './styles/Search.css';
-import AuthorPriview from '../components/AuthorPreview'
-import * as data from '../data/data.json'
-import '../components/styles/bootstrap.css'
+import "./styles/Search.css"
+import AuthorPriview from "../components/AuthorPreview"
+import * as data from "../data/data.json"
+import "../components/styles/bootstrap.css"
 
 export default class Search extends Component {
   constructor() {
@@ -116,6 +116,7 @@ export default class Search extends Component {
             {this.renderBirthPlaces()}
           </select>
         </div>
+        {authorPreviews}
       </>
     )
   }
