@@ -36,37 +36,37 @@ const IndexPage = ({ lang }) => (
         </div>
         <div class="developers">
           <div class="dev-card">
-            <p class="dev-name">Vasil</p> 
+            <p class="dev-name">Василий</p> 
             <div class="dev-photo"></div>     
             <a class="github-id" href="https://github.com/TuTejsy">TuTejsy</a>
           </div>
            <div class="dev-card">
-            <p class="dev-name">Katya</p>
+            <p class="dev-name">Екатерина</p>
             <div class="dev-photo"></div>             
             <a class="github-id"></a>
           </div>
           <div class="dev-card">
-            <p class="dev-name">Natalya</p> 
+            <p class="dev-name">Наталья</p> 
             <div class="dev-photo"></div>           
             <a class="github-id" href="https://github.com/NatalyaApasova">NatalyaApasova</a>
           </div>
           <div class="dev-card">
-            <p class="dev-name">Vlad</p>
+            <p class="dev-name">Владислав</p>
             <div class="dev-photo"></div>           
-            <a class="github-id" href=""></a>
+            <a class="github-id" href="">https://github.com/VladMeleshko</a>
           </div>
           <div class="dev-card">
-            <p class="dev-name">Anton</p>
+            <p class="dev-name">Антон</p>
             <div class="dev-photo"></div>            
             <a class="github-id" href="https://github.com/Zamtakaish">Zamtakaish</a>
           </div>
           <div class="dev-card">
-            <p class="dev-name">Lidiya</p>
+            <p class="dev-name">Лидия</p>
             <div class="dev-photo"></div>            
             <a class="github-id" href="https://github.com/505Flamingo">505Flamingo</a>
             </div>
           <div class="dev-card">
-            <p class="dev-name">Andrew</p>
+            <p class="dev-name">Андрей</p>
             <div class="dev-photo"></div>
             <a class="github-id" href=""></a>
           </div> 
