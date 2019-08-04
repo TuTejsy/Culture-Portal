@@ -9,6 +9,7 @@ import "./styles/Main.css"
 
 const Main = ({ lang }) => {
   let text
+  let button
 
   switch (lang) {
     case "by":
@@ -33,6 +34,7 @@ const Main = ({ lang }) => {
           </p>
         </>
       )
+      button = "Да спіса аўтараў"
       break
 
     case "en":
@@ -56,6 +58,7 @@ const Main = ({ lang }) => {
           </p>
         </>
       )
+      button = "To authors"
       break
 
     default:
@@ -82,6 +85,7 @@ const Main = ({ lang }) => {
           </p>
         </>
       )
+      button = "К списку авторов"
       break
   }
 
@@ -91,7 +95,7 @@ const Main = ({ lang }) => {
           <Link
             to="/search/"
             state={{lang}}>
-            <div className="to-authors-list">К списку авторов</div>
+            <div className="to-authors-list">{button}</div>
           </Link>
         </div>
         <div className="main-page-text">{text}</div>
