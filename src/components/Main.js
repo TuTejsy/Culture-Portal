@@ -2,6 +2,8 @@ import { Link } from "gatsby"
 import React from 'react'
 
 import Image from "./Image"
+import StudentCards from './StudentCards';
+import AuthorOtD from "./AuthorOtD"
 
 const Main = ({ lang }) => (
   <>
@@ -12,6 +14,8 @@ const Main = ({ lang }) => (
       <Image />
     </div>
     <Link to="/search/" state={{ lang }}>Go to page 2</Link>
+    <AuthorOtD lang={lang}/>
+    <StudentCards />
   </>
 )
 
