@@ -61,8 +61,8 @@
 
 | time spent | feature |
 |-------------|-------------|
-|  |  |
-|  |  |
+| 3h | create Author Preview and add styles |
+| 15min | change link at main page and add switching languages |
 |  |  |
 
 *qunapi*
