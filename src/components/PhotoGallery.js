@@ -62,7 +62,7 @@ class Photos extends React.Component {
     render() {
         return ( 
         <div id="carouselExampleIndicators" className="carousel slide" data-ride="carousel">
-            <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous"></link>
+            <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossOrigin="anonymous"></link>
             <ol className="carousel-indicators">
                 <li id="1" className="slide active" onClick={this.selectPhoto}></li>
                 <li id="2" className="slide" onClick={this.selectPhoto}></li>

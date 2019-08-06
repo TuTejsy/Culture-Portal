@@ -54,9 +54,9 @@ function VideoComponent({ author, video }) {
   )
 }
 
-function createWorksRow(author) {
+function createWorksRow(author, i) {
   return (
-    <tr>
+    <tr key={i}>
       <td>{author.date}</td>
       <td>{author.title}</td>
     </tr>
