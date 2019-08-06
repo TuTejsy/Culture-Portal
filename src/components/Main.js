@@ -91,11 +91,11 @@ const Main = ({ lang }) => {
 
   return (
       <div className="main-container">
-        <div className="buttons">
+        <div className="">
           <Link
             to="/search/"
-            state={{lang}}>
-            <div className="to-authors-list">{button}</div>
+            state={{lang}} className="btn toList-btn">
+            {button}
           </Link>
         </div>
         <div className="main-page-text">{text}</div>

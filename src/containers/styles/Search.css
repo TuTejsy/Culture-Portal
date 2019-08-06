@@ -7,6 +7,16 @@
   align-items: center;
 }
 
+.author-btn {
+  background-color: #3369b9;
+  color: #fff;
+  border-width: 0px;
+}
+
+.author-btn:hover {
+  background-color: #2EB79C;
+  color: #fff;
+}
 .search-label {
   margin: 0;
   margin-right: 20px;

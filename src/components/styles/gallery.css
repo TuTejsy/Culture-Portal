@@ -132,10 +132,11 @@ img {
     cursor: pointer;
 }
 
-a {
+.button {
     color: #007bff;
     text-decoration: none;
     background-color: transparent;
+    border-width: 0px;
 }
 
 .carousel-control-next-icon, .carousel-control-prev-icon {

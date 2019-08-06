@@ -1,6 +1,4 @@
 import React from 'react'
-import data from '../data/data.json'
-
 
 import './styles/gallery.css'
 
@@ -107,12 +105,12 @@ class Photos extends React.Component {
                     <img src={this.state.author.gallery[9]} className="d-block w-100" alt="..." />
                 </div>
             </div>
-            <a className="carousel-control-prev" role="button" data-slide="prev" onClick={this.prevPhoto}>
+            <button className="carousel-control-prev button" data-slide="prev" onClick={this.prevPhoto}>
                 <span className="carousel-control-prev-icon" aria-hidden="true"><i className="fas fa-angle-left"></i></span>
-            </a>
-            <a className="carousel-control-next" role="button" data-slide="next" onClick={this.nextPhoto}>
+            </button>
+            <button className="carousel-control-next button" data-slide="next" onClick={this.nextPhoto}>
                 <span className="carousel-control-next-icon" aria-hidden="true"><i className="fas fa-angle-right"></i></span>
-            </a>
+            </button>
         </div>
         );
     }

@@ -23,11 +23,11 @@ export default class Search extends Component {
     let unicPlaces = []
 
     let birthPlaces = authors.map((author, i) => {
-      if (!author.language[this.props.lang]) return
+      if (!author.language[this.props.lang]) return undefined;
 
       const birthPlace = author.language[this.props.lang].birthPlace
 
-      if (unicPlaces.includes(birthPlace)) return
+      if (unicPlaces.includes(birthPlace)) return undefined;
       else unicPlaces.push(birthPlace)
 
       return (
@@ -80,7 +80,7 @@ export default class Search extends Component {
         (birthPlace !== "" &&
           item.language[this.props.lang].birthPlace !== birthPlace)
       ) {
-        return
+        return undefined;
       }
 
       return (
@@ -91,7 +91,10 @@ export default class Search extends Component {
     return (
       <>
         <div className="search-container">
-          <label htmlFor="search-input" className="search-label search-input-label">
+          <label
+            htmlFor="search-input"
+            className="search-label search-input-label"
+          >
             {name}:
           </label>
           <input

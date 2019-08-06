@@ -35,7 +35,7 @@ const AuthorPreview = ({ lang, author }) => {
     >
       <img
         src={author.photo}
-        className="author-preview-img-top mb-0 rounded"
+        className="author-preview-img-top mb-0 rounded img"
         alt={author.language[lang].name}
       />
       <div className="author-preview-body mt-3 mb-3 ml-3">
@@ -53,7 +53,7 @@ const AuthorPreview = ({ lang, author }) => {
         <Link
           to="/author"
           state={{ lang, author }}
-          className="btn btn-primary mb-2"
+          className="btn btn-primary mb-2 author-btn "
         >
           {buttonDescription}
         </Link>

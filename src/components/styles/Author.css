@@ -2,52 +2,16 @@
   margin: 0 auto;
 }
 
-.btn {
-  background-color: #0e142e;
+.toList-btn {
+  background-color: #3369b9;
+  color: #fff;
 }
 
-.btn:hover {
-  background-color: #61b8ff;
+.toList-btn:hover {
+  background-color: #2EB79C;
+  color: #fff;
 }
 
-.embed-responsive {
-  width: 85vw;
-  height: 65vh;
-  margin: 0 auto;
-  padding: 0;
-}
-
-.modal-content {
-  width: 100vw;
-  padding: 0;
-  background-color: #000;
-}
-
-.modal-dialog {
-  width: 100vw;
-  height: 100vh;
-  padding: 0; 
-  margin: 0;
-}
-
-@media screen and (min-width: 760px) {
-  .embed-responsive {
-    width: 80vw;
-    height: 60vh;
-    margin-left: 0 auto;
-    padding: 0;
-  }
-
-  .modal-content {
-    width: 100vw;
-    padding: 0;
-    background-color: #000;
-  }
-
-  .modal-dialog {
-    width: 100vw;
-    height: 100vh;
-    padding: 0; 
-    margin: 0 8.5%;
-  }
+.videoComponent{
+  margin: 20px;
 }

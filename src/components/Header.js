@@ -38,7 +38,7 @@ const Header = ({ siteTitle, lang, setLang }) => {
   }
 
   return (
-    <header className="page-header">
+    <header className="page-header header">
       <div className="page-header__container navbar">
         <h1 style={{ margin: 0 }}>
 

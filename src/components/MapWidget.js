@@ -29,7 +29,7 @@ export default class MapWidget extends React.Component {
 
   renderMarkers(gMap){
     this.props.author.mapInfo.map((coords) => {
-      const marker = new window.google.maps.Marker({
+      return new window.google.maps.Marker({
         position: { lat: +coords.latitude, lng: +coords.longitude },
         map: gMap,
         title: coords.point,

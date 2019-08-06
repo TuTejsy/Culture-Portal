@@ -3,6 +3,7 @@ import { Link } from "gatsby"
 
 import "./styles/bootstrap.css"
 import * as data from '../data/data.json'
+import './styles/authorOfTheDay.css'
 
 function getAuthor() {
   const date = new Date();
@@ -53,14 +54,14 @@ const AuthorOtD = ({ lang }) => {
           <img
             src={author.photo}
             alt="Фото автора"
-            className="author-of-the-day__photo"
+            className="author-of-the-day__photo img"
           ></img>
         </div>
         <div className="author-of-the-day__info">
           <h2 className="author-of-the-day__info__name">{author.language[lang].name}</h2>
           <h5 className="author-of-the-day__info__date">{author.language[lang].date}</h5>
           <p className="author-of-the-day__info__summary">{author.language[lang].summary}</p>
-          <Link to="/author" state={{ lang, author }} className='author-of-the-day__info__button_link'>{buttonDescription}</Link>
+          <Link to="/author" state={{ lang, author }} className='btn author-of-the-day__info__button_link '>{buttonDescription}</Link>
         </div>
       </div>
     </div>

@@ -13,12 +13,12 @@
 p {
     text-indent: 1.5em;
     font-size: 2.5vh;
-    line-height: 3vh;
 }
-
+a {
+    text-decoration: none;
+}
 .main-page-text {
-    margin-top: 10vh;
-    /*width: 30vw;*/
+    margin-top: 20px;
     display: flex;
     flex-direction: column;
     text-align: justify;
@@ -52,17 +52,6 @@ p {
 
 .buttons a:hover {
     background: #6F94A0;
-}
-
-.title {
-    display: flex;
-    flex-direction: column;
-	flex-wrap: nowrap;
-	justify-content: center;
-	align-items: center;
-	align-content: center;
-    background: #6F94A0;
-    flex: 1;
 }
 
 .author-frame {

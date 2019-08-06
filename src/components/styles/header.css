@@ -1,8 +1,10 @@
 .page-header {
-  background: #0E142E;
+  background: #3369b9;
   margin-bottom: 1.45rem;
 }
-
+.header {
+  user-select: none;
+}
 .page-header__container {
   display: flex;
   justify-content: space-between;
@@ -18,26 +20,17 @@
   font-size: 25px;
   color: #fff;
   text-decoration: none;
+  transition-duration: 200ms;
 }
 
 .page-header__buttons a:last-child {
   margin: 0;
 }
 
-.page-header__buttons a::after {
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  content: '';
-  height: 0;
-  width: 100%;
-  background: #fff;
-  transition: 0.1s;
-}
-
-.page-header__buttons a:hover::after {
-  height: 2px;
-  transition: 0.2s;
+.page-header__buttons a:hover {
+  transition-duration: 200ms;
+  text-decoration: none;
+  color: #2EB79C;
 }
 
 .page-header__language-select {
@@ -62,7 +55,7 @@
   position: absolute;
   top: 0;
   right: -5px;
-  content: '';
+  content: "";
   width: 1px;
   height: 100%;
   background: #fff;
@@ -77,5 +70,5 @@
 }
 
 .page-header__language-select .selected {
-  color: #B3A27A;
+  color: #b3a27a;
 }
