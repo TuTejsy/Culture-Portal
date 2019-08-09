@@ -3,6 +3,7 @@ import PropTypes from "prop-types"
 import React from "react"
 
 import './styles/Header.css'
+import '../../node_modules/bootstrap/dist/css/bootstrap.css'
 
 const Header = ({ siteTitle, lang, setLang }) => {
   const handleLangClick = e => {
@@ -12,39 +13,57 @@ const Header = ({ siteTitle, lang, setLang }) => {
     setLang(currentLang);
   }
 
+  let button1;
+  let button2;
+  let button3;
+
+  switch (lang) {
+    case 'by':
+      button1 = <>Пісьменнікі Беларусі</>
+      button2 = <>Галоўная Старонка</>
+      button3 = <>Пошук</>
+      break;
+
+    case 'en':
+      button1 = <>Writers of Belarus</>
+      button2 = <>Main Page</>
+      button3 = <>Search</>
+      break;
+
+    default:
+      button1 = <>Писатели Беларуси</>;
+      button2 = <>Главная Страница</>;
+      button3 = <>Поиск</>
+      break;
+  }
+
   return (
-    <header className="page-header">
-      <div className="page-header__container">
+    <header className="page-header header">
+      <div className="page-header__container navbar">
         <h1 style={{ margin: 0 }}>
+
           <Link to="/"
+            state={{ lang }}
             style={{
               color: `white`,
               textDecoration: `none`,
             }}
           >
-            {
-              (lang === 'ru') && <>Писатели Беларуси</>
-              || (lang === 'by') && <>Пісьменнікі Беларусі</>
-              || (lang === 'en') && <>Writers of Belarus</>
-            }
+            {button1}
           </Link>
         </h1>
 
         <div className="page-header__buttons">
-          <Link to="/">
-            {
-              (lang === 'ru') && <>Главная Страница</>
-              || (lang === 'by') && <>Галоўная Старонка</>
-              || (lang === 'en') && <>Main Page</>
-            }
+          <Link
+            to="/"
+            state={{ lang }}>
+            {button2}
           </Link>
 
-          <Link to="/search/">
-            {
-              (lang === 'ru') && <>Поиск</>
-              || (lang === 'by') && <>Пошук</>
-              || (lang === 'en') && <>Search</>
-            }
+          <Link
+            to="/search/"
+            state={{ lang }}>
+            {button3}
           </Link>
         </div>
 

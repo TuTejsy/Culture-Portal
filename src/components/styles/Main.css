@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500i,900&display=swap');
+
+.main-container {
+    display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: stretch;
+    align-content: stretch;
+    font-family: 'Roboto', sans-serif;
+}
+
+p {
+    text-indent: 1.5em;
+    font-size: 2.5vh;
+}
+a {
+    text-decoration: none;
+}
+.main-page-text {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    font-weight: normal;
+}
+
+.buttons {
+    padding-top: 3vh;
+    display: flex;
+    flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+    align-content: stretch;
+    width: 30vw;
+    margin: 0 auto;
+}
+
+.buttons a {
+    display: flex;
+    align-items: center;
+    align-content: stretch;
+    justify-content: center;
+    text-decoration: none;
+    background: #352C46;
+    color: white;
+    width: 10vw;
+    height: 7vh;
+    font-size: 2vh;
+}
+
+.buttons a:hover {
+    background: #6F94A0;
+}
+
+.author-frame {
+    display: flex;
+    flex: 3;
+    border: 1px solid #6F94A0;
+}
+
+.author-photo {
+    display: flex;
+    flex: 1;
+}
+
+.author-description {
+    display: flex;
+    flex: 4;
+}
+
+.developers {
+    margin: 5vh 0 10vh 0;
+    display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+    align-content: center;
+}
+
+.dev-card {
+    display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	align-items: stretch;
+    align-content: stretch;
+    border: 1px solid #8474A3;
+    width: 10vw;
+    height: 30vh;
+}
+
+.dev-name {
+    padding: 1vh 0 1vh 0;
+    margin-bottom: 0;
+    text-indent: 0;
+    text-align: center;
+    font-size: 3vh;
+    background: #8474A3;
+    color: white;
+}
+
+.dev-photo {
+    background: #C5CAE9;
+    height: 15vh;
+}
+
+.developers a {
+    padding-top: 3vh;
+    font-size: 2vh;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+
+.developers a:hover {
+    color: #8474A3;
+}

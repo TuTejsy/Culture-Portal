@@ -1,0 +1,17 @@
+* {
+  margin: 0 auto;
+}
+
+.toList-btn {
+  background-color: #3369b9;
+  color: #fff;
+}
+
+.toList-btn:hover {
+  background-color: #2EB79C;
+  color: #fff;
+}
+
+.videoComponent{
+  margin: 20px;
+}

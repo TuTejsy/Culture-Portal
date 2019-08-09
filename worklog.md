@@ -17,6 +17,7 @@
 
 *natalyaapasova*
 
+
 | time spent | feature                |
 |------------|------------------------|
 | 12h        | Content into JSON      |
@@ -41,11 +42,11 @@
 
 *qunapi*
 
-| time spent | feature |
-|-------------|-------------|
-|  |  |
-|  |  |
-|  |  |
+| time spent | feature            |
+|------------|--------------------|
+| 2h         | Author page layout | 
+| 2h         | data loading       |
+| 1h         | bootstrap          |
 
 *vladmeleshko*
 
