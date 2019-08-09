@@ -81,3 +81,4 @@
 |3h|add buttons and slider for gallery|
 |3h|fix bugs in code|
 
+[link to the project](https://qunapi.github.io/)
